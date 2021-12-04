@@ -1,1443 +1,1443 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>GAME LOBBY - Slotauto game.com</title>
-    <meta name="robots" content="noindex">
-    <meta name="format-detection" content="telephone=no">
-    <link href="https://fonts.googleapis.com/css?family=Sarabun&amp;display=swap" rel="stylesheet">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>GAME LOBBY - Asia999.com</title>
+  <meta name="robots" content="noindex">
+  <meta name="format-detection" content="telephone=no">
+  <link href="https://fonts.googleapis.com/css?family=Sarabun&amp;display=swap" rel="stylesheet">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/ico/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png">
+  <link rel="manifest" href="/ico/site.webmanifest">
+  <link rel="mask-icon" href="/ico/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/ico/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="/ico/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/ico/browserconfig.xml">
+  <meta name="theme-color" content="#000000">
+  
+  <style>
+  @import url("/css/scss_custom/notie.css"); /* version 4.3.0 | added 2018-08-05 */
+  
+  html, body {
+      height: 100%;
+  /*    font-family: Tahoma,Helvetica, Arial, sans-serif; */
+    font-family: 'Sarabun', Tahoma, Arial, sans-serif;
+      color: #fff;
+      font-size: 16px;
+    background-color: #000;
+  /*    background-color: #0C151D; */
+      min-width: 980px;
+  /*	
+    background-color: rgb(20, 20, 20);
+      background-image: url('/games/images/padded.jpg');
+      background-repeat: repeat;
+      background-position: center top;
+  */	
+  }
+  body {
+    display: block;
+    position: relative;
+    height: auto;
+    min-height:100%;
+    /*
+    min-height: calc(100% - 80px);
+     padding-bottom: 80px; 
+    background-image: linear-gradient(0deg, #203C62 0%, #09141D 100%);
+    background-color: #09141D;
+    */
+    background-color: #000;
     
-    <link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/ico/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png">
-    <link rel="manifest" href="/ico/site.webmanifest">
-    <link rel="mask-icon" href="/ico/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/ico/favicon.ico">
-    <link rel="icon" type="image/x-icon" href="/ico/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="/ico/browserconfig.xml">
-    <meta name="theme-color" content="#000000">
-    
-    <style>
-    @import url("/css/scss_custom/notie.css"); /* version 4.3.0 | added 2018-08-05 */
-    
-    html, body {
-        height: 100%;
-    /*    font-family: Tahoma,Helvetica, Arial, sans-serif; */
-        font-family: 'Sarabun', Tahoma, Arial, sans-serif;
-        color: #fff;
-        font-size: 16px;
-        background-color: #000;
-    /*    background-color: #0C151D; */
-        min-width: 980px;
-    /*	
-        background-color: rgb(20, 20, 20);
-        background-image: url('/games/images/padded.jpg');
-        background-repeat: repeat;
-        background-position: center top;
-    */	
-    }
-    body {
-        display: block;
-        position: relative;
-        height: auto;
-        min-height:100%;
-        /*
-        min-height: calc(100% - 80px);
-         padding-bottom: 80px; 
-        background-image: linear-gradient(0deg, #203C62 0%, #09141D 100%);
-        background-color: #09141D;
-        */
-        background-color: #000;
-        
-        /* min-height: calc(100% - 5rem);
-        padding-bottom: 5rem; */
-        margin: 0;
-    }
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    .displayF, .live-game h1 a, .fh-game h1 a, .arcade-game h1 a, .rngtable-game h1 a, .slot-game h1 a, .live-game .game-content li:hover .cover, .fh-game .game-content li:hover .cover, .arcade-game .game-content li:hover .cover, .rngtable-game .game-content li:hover .cover, .slot-game .game-content li:hover .cover, header, .lang-menu a, .slot-game .game-content > li.jackpot, .slot-game .game-content > li.jackpot dd, .tab-menu a, .tab-menu-gameHall a, .search-bar, .search-bar li, .search-content-search form, .cover, .cover .game-name, footer {
-        display: flex;
-    }
-    a {
-        text-decoration: none;
-        outline: none;
-        hlbr: expression(this.onFocus=this.blur());
-        font-size:14px;
-        color:#FFFFFF;
-    }
-    a:visited,a:link { color:#FFFFFF}
-    
-    
-    header {
-        min-width: 100%;
-        height: 40px;
-        background-image: linear-gradient(-180deg, #0C1117 0%, #162C3F 100%);
-        position: relative;
-        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.7);
-    }
-    header .header-left {
-        flex: 1 0 50%;
-        overflow-x: auto;
-    }
-    header header-right a{
-    color:#FFFFFF;
-    }
-    header header-right a.select,header header-right a:hover{
-    color:#FF0000;
-    }
-    a.select { color:#FF0000}
-    
-    
-    header > ul {
-        height: 100%;
-        align-items: center;
-    }
-    header > ul li{ margin-right:2px;}
-    header > ul, nav ul, .tab-menu, .tab-menu-gameHall {
-        display: flex;
-    }
-    ul {
-        display: block;
-        list-style-type: disc;
-        margin-block-start: 0px;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        padding-inline-start: 0px;
-    }
-    header .header-left > li {
-        color: #F4E0BD;
-        font-size: 1.2rem;
-    }
-    UL.header-left img{
-     vertical-align:baseline;
-    }
-    
-    header > ul li, nav ul li, .tab-menu li, .tab-menu-gameHall li {
-        list-style: none;
-    }
-    li {
-        display: list-item;
-        text-align: -webkit-match-parent;
-    }
-    .id, .balance {
-        line-height: 1.3rem;
-        margin-right: 1.3rem;
-    }
-    .id {
-        margin-left: 1rem;
-    }
-    .home {
-        width: 5.3rem;
-        line-height: 2.3rem;
-        font-size: 1rem;
-        padding: 0 5px;
-    
-        display: inline-block;
-        width: 117px;
-        flex: 0 0 auto;
-        height: 100%;
-        line-height: 40px;
-        font-size: 16px;
-        font-weight: bold;
-        color: #000;
-        text-shadow: -0.5px -0.5px 0px rgba(255, 255, 255, 0.6);
-        padding-left: 15px;
-        background: url(/games/images/home_bg.png) no-repeat;
-        background-size: cover;
-        background-position: right;
-        box-sizing: unset;
-    
-    }
-    a.home {
-    color:#000000; text-decoration:none;
+    /* min-height: calc(100% - 5rem);
+    padding-bottom: 5rem; */
+    margin: 0;
+  }
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  .displayF, .live-game h1 a, .fh-game h1 a, .arcade-game h1 a, .rngtable-game h1 a, .slot-game h1 a, .live-game .game-content li:hover .cover, .fh-game .game-content li:hover .cover, .arcade-game .game-content li:hover .cover, .rngtable-game .game-content li:hover .cover, .slot-game .game-content li:hover .cover, header, .lang-menu a, .slot-game .game-content > li.jackpot, .slot-game .game-content > li.jackpot dd, .tab-menu a, .tab-menu-gameHall a, .search-bar, .search-bar li, .search-content-search form, .cover, .cover .game-name, footer {
+      display: flex;
+  }
+  a {
+      text-decoration: none;
+      outline: none;
+      hlbr: expression(this.onFocus=this.blur());
     font-size:14px;
-    }
-    nav {
-       height: 80px;
-        background: url(images/nav-bg02.png), linear-gradient(-180deg, #2D465F 16%, #142531 48%, #0B1720 49%, #132A3C 85%, #162F42 91%, #1E3F59 92%, #0C171F 100%);
-        background-position: right;
-        background-repeat: no-repeat;
-        background-blend-mode: lighten, normal;
-        display: block;
-    }
-    nav ul {
-        margin: 0;
-        height: 100%;
-        width:750px;
-        
-    }
-    header > ul, nav ul, .tab-menu, .tab-menu-gameHall {
-        display: flex;
-    }
+    color:#FFFFFF;
+  }
+  a:visited,a:link { color:#FFFFFF}
+  
+  
+  header {
+      min-width: 100%;
+      height: 40px;
+      background-image: linear-gradient(-180deg, #0C1117 0%, #162C3F 100%);
+      position: relative;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.7);
+  }
+  header .header-left {
+      flex: 1 0 50%;
+      overflow-x: auto;
+  }
+  header header-right a{
+  color:#FFFFFF;
+  }
+  header header-right a.select,header header-right a:hover{
+  color:#FF0000;
+  }
+  a.select { color:#FF0000}
+  
+  
+  header > ul {
+      height: 100%;
+      align-items: center;
+  }
+  header > ul li{ margin-right:2px;}
+  header > ul, nav ul, .tab-menu, .tab-menu-gameHall {
+      display: flex;
+  }
+  ul {
+      display: block;
+      list-style-type: disc;
+      margin-block-start: 0px;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 0px;
+  }
+  header .header-left > li {
+      color: #F4E0BD;
+      font-size: 1.2rem;
+  }
+  UL.header-left img{
+   vertical-align:baseline;
+  }
+  
+  header > ul li, nav ul li, .tab-menu li, .tab-menu-gameHall li {
+      list-style: none;
+  }
+  li {
+      display: list-item;
+      text-align: -webkit-match-parent;
+  }
+  .id, .balance {
+      line-height: 1.3rem;
+      margin-right: 1.3rem;
+  }
+  .id {
+      margin-left: 1rem;
+  }
+  .home {
+      width: 5.3rem;
+      line-height: 2.3rem;
+      font-size: 1rem;
+      padding: 0 5px;
+  
+      display: inline-block;
+      width: 117px;
+      flex: 0 0 auto;
+      height: 100%;
+      line-height: 40px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #000;
+      text-shadow: -0.5px -0.5px 0px rgba(255, 255, 255, 0.6);
+      padding-left: 15px;
+      background: url(/games/images/home_bg.png) no-repeat;
+      background-size: cover;
+      background-position: right;
+    box-sizing: unset;
+  
+  }
+  a.home {
+  color:#000000; text-decoration:none;
+  font-size:14px;
+  }
+  nav {
+     height: 80px;
+      background: url(images/nav-bg02.png), linear-gradient(-180deg, #2D465F 16%, #142531 48%, #0B1720 49%, #132A3C 85%, #162F42 91%, #1E3F59 92%, #0C171F 100%);
+      background-position: right;
+      background-repeat: no-repeat;
+      background-blend-mode: lighten, normal;
+      display: block;
+  }
+  nav ul {
+      margin: 0;
+      height: 100%;
+    width:750px;
     
-    nav li {
-        flex: 0 1 6.3rem;
-        border-right: 0.07rem solid #000;
-        
-    }
+  }
+  header > ul, nav ul, .tab-menu, .tab-menu-gameHall {
+      display: flex;
+  }
+  
+  nav li {
+      flex: 0 1 6.3rem;
+      border-right: 0.07rem solid #000;
     
-    
-    
-    .row li {
-    display:flex; width:150px;
-    }
-    nav li a {
-        padding-top: 0.7rem;
-        display:block;
-        font-size:14px;
-        height: 100%;
-        padding-top: 10px;
-        text-align: center;
-        color: #E1BE83;
-    }
-    nav li.select a,nav li a:hover {
-    
-    /*    background-image: linear-gradient(-180deg, #C2A056 16%, #625424 47%, #45391A 49%, #0A161F 91%, #162E41 92%, #0C171F 100%);  */
-    color:#FF0000;
-    }
-    nav li img {
-    margin:2px 10px 7px 10px;
-    vertical-align:baseline;
-    }
-    div#logo {
-    margin-top:20px; float:right; width:220px;
-    }
-    div.containner{
-    max-width:1130px;
-    min-width:600px;
-    /*min-height: calc(100vh - 14rem);*/
-    }
-    .tbl td{
-     padding:10px 0px;
-    }
-    div.containner img{
-    
-        max-width:100%;
-        border-radius: 10px;
-        border:2px solid #FFFFFF;
-    
-    }
-    table.tbl {
-        width:100%;
-        /*min-width:1070px;*/
-    }
-    .index_img img{
+  }
+  
+  
+  
+  .row li {
+  display:flex; width:150px;
+  }
+  nav li a {
+      padding-top: 0.7rem;
+    display:block;
+    font-size:14px;
+      height: 100%;
+      padding-top: 10px;
+      text-align: center;
+      color: #E1BE83;
+  }
+  nav li.select a,nav li a:hover {
+  
+  /*    background-image: linear-gradient(-180deg, #C2A056 16%, #625424 47%, #45391A 49%, #0A161F 91%, #162E41 92%, #0C171F 100%);  */
+  color:#FF0000;
+  }
+  nav li img {
+  margin:2px 10px 7px 10px;
+  vertical-align:baseline;
+  }
+  div#logo {
+  margin-top:20px; float:right; width:220px;
+  }
+  div.containner{
+  max-width:1130px;
+  min-width:600px;
+  /*min-height: calc(100vh - 14rem);*/
+  }
+  .tbl td{
+   padding:10px 0px;
+  }
+  div.containner img{
+  
+      max-width:100%;
+      border-radius: 10px;
     border:2px solid #FFFFFF;
-    width:48%;
-    height:225px;
-    }
-    div.line1 {
-    border:2px solid #FFFF00; margin-left:10px;
-    }
-    div.line2 {
-    border:2px solid #FFFF00; margin-left:0px; margin-bottom:10px;
-    }
-    
-    .slot_fac{ width:500px;}
-    .slot_fac img{
-    width:152px; height:160px; display:inline;
-    margin-right:3px; margin-bottom:8px;
-    }
-    .slot_sexy img{
-    width:30%; display:inline; cursor:pointer;
-    margin:0px 0px 20px 20px;
-    }
-    .slot_sexy{ width:100%;}
-    
-    .slot_sa img{
-    width:46.5%; display:inline; cursor:pointer;
-    margin:10px 0px 0px 20px;
-    }
-    .slot_sa{ width:100%;}
-    
-    .slot_cq img{
-    width:200px; display:inline; cursor:pointer;
-    margin:10px 0px 0px 20px;
-    }
-    .slot_cq{ width:100%;}
-    
-    
-    .slot_sf img{
-    width:46.5%; display:inline; cursor:pointer;
-    margin:0px 0px 20px 20px;
-    }
-    .slot_sf{ width:100%;}
-    
-    
-    .fsz_rem01 { font-size: 0.1rem; }
-    .fsz_rem02 { font-size: 0.2rem; }
-    .fsz_rem03 { font-size: 0.3rem; }
-    .fsz_rem04 { font-size: 0.4rem; }
-    .fsz_rem05 { font-size: 0.5rem; }
-    .fsz_rem06 { font-size: 0.6rem; }
-    .fsz_rem07 { font-size: 0.7rem; }
-    .fsz_rem08 { font-size: 0.8rem; }
-    .fsz_rem09 { font-size: 0.9rem; }
-    .fsz_rem10 { font-size: 1.0rem; }
-    .fsz_rem11 { font-size: 1.1rem; }
-    .fsz_rem12 { font-size: 1.2rem; }
-    .fsz_rem13 { font-size: 1.3rem; }
-    .fsz_rem14 { font-size: 1.4rem; }
-    .fsz_rem15 { font-size: 1.5rem; }
-    .fsz_rem16 { font-size: 1.6rem; }
-    .fsz_rem17 { font-size: 1.7rem; }
-    .fsz_rem18 { font-size: 1.8rem; }
-    .fsz_rem19 { font-size: 1.9rem; }
-    .fsz_rem20 { font-size: 2.0rem; }
-    .fsz_rem22 { font-size: 2.2rem; }
-    .fsz_rem24 { font-size: 2.4rem; }
-    .fsz_rem26 { font-size: 2.6rem; }
-    .fsz_rem28 { font-size: 2.8rem; }
-    .fsz_rem30 { font-size: 3.0rem; }
-    .fsz_rem32 { font-size: 3.2rem; }
-    .fsz_rem34 { font-size: 3.4rem; }
-    .fsz_rem36 { font-size: 3.6rem; }
-    .fsz_rem38 { font-size: 3.8rem; }
-    .fsz_rem40 { font-size: 4.0rem; }
-    
-    
-    .slot_sp{ width:100%;}
-    .slot_sp img{
-    width:46.5%; display:inline; cursor:pointer;
-    margin:10px 0px 0px 20px;
-    }
-    .overlay-image {
-     position: relative;
-     width: 100%;
-     display:inline;
-    }
-    .overlay-image .hover {
-     position: absolute;
-     top: -160px; left:20px;
-     height: 100%;
-     width: 100%;
-     opacity: 1;
-     transition: .5s ease;
-     cursor:pointer;
-    }
-    .overlay-image .hover img {
-     height: 50px;
-     width: 50px;
-     border:0;
-     cursor:pointer;
-    }
-    .overlay-image .hover .text {
-    margin-left:35px; color:#ff; font-size:10px; font-weight:bold;
-    }
-    /* New overlay appearance on hover */
-    .overlay-image:hover .hover {
-     opacity: 1;
-    }
-    
-    .overlay-image2 {
-     position: relative;
-     width: 100%;
-     display:inline;
-    }
-    .overlay-image2 .hover {
-     position: absolute;
-     top: -60px; left:20px;
-     height: 100%;
-     width: 100%;
-     opacity: 1;
-     transition: .5s ease;
-     cursor:pointer;
-    }
-    .overlay-image2 .hover img {
-     height: 50px;
-     width: 50px;
-     border:0;
-     cursor:pointer;
-    }
-    .overlay-image2 .hover .text {
-    margin-left:12px; color:#fff; font-size:10px; font-weight:bold;
-    }
-    /* New overlay appearance on hover */
-    .overlay-image2:hover .hover {
-     opacity: 1;
-    }
-    
-    .btn_wallet {
-        box-shadow: 0px 1px 0px 0px #fff6af;
-        background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
-        background-color:#ffec64;
-        border-radius:6px;
-        border:1px solid #ffaa22;
-        display:inline-block;
-        cursor:pointer;
-        color:#333333 !important;
-        font-family:Arial;
-        font-size:2.0rem;
-        font-weight:bold;
-        padding:11px 24px;
-        text-decoration:none;
-        text-shadow:0px 1px 0px #ffee66;
-        margin:20px;
-    }
-    .btn_wallet:hover {
-        background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
-        background-color:#ffab23;
-    }
-    .btn_wallet:active {
-        position:relative;
-        top:1px;
-    }
-    .popup-modal-dismiss { font-size:2.0rem}
-    
-    .mainBtn {
-      display: inline-block; text-align: center; margin:0 10px 0 0; font-size:1.1rem;
-      color: #e0b602; width: 20%; background: #222222; /* font-weight: bold; */ line-height: 110%; padding: 13px 0 0 0;
-      border: 1px solid #e0b602; border-radius: 4px;
-      background: -moz-linear-gradient(top,  #222222 0%, #222222 10%, #000000 100%);
-      background: -webkit-linear-gradient(top,  #222222 0%,#222222 10%,#000000 100%);
-      /* background: linear-gradient(to bottom,  #222222 0%,#222222 10%,#000000 100%); */
-      background: linear-gradient(to bottom, #e0b602 0%,#e0b602 10%,#000000 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#000000',GradientType=0 );
-    }
-    .mainBtn {
-    height: 35px;
-    }
-    .mainBtn2 {
-      color: #fff; width: 30%; background: #e0b602; font-weight: bold; line-height: 120%; padding: 10px 0;
-      display: inline-block; text-align: center;
-      border: 1px solid #e0b602; border-radius: 4px;
-      background: -moz-linear-gradient(top,  #e0b602 0%, #e0b602 10%, #000000 90%);
-      background: -webkit-linear-gradient(top,  #e0b602 0%,#e0b602 10%,#000000 90%);
-      background: linear-gradient(to bottom,  #e0b602 0%,#e0b602 10%,#000000 90%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0b602', endColorstr='#000000',GradientType=0 );
-    height: 62px; font-size:1.5rem;
-    }
-    .mainBtn2:hover{text-decoration:none; color:#FFFFFF}
-    
-    
-    .button_test {
-        -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
-        -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
-        box-shadow:inset 0px 1px 0px 0px #ffffff;
-        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
-        background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
-        background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
-        background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
-        background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
-        background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
-        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
-        background-color:#ffffff;
-        -webkit-border-radius:6px;
-        -moz-border-radius:6px;
-        border-radius:6px;
-        border:1px solid #dcdcdc;
-        display:inline-block;
-        cursor:pointer;
-        color:#666666;
-        font-family:Arial;
-        font-size:25px;
-        font-weight:bold;
-        padding:13px 28px;
-        text-decoration:none;
-        text-shadow:0px 1px 0px #ffffff;
-    }
-    .button_test:hover {
-        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
-        background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-        background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-        background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-        background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-        background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
-        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
-        background-color:#f6f6f6;
-    }
-    .button_test:active {
-        position:relative;
-        top:1px;
-    }
-    
-    .button_play {
-        -moz-box-shadow: 0px 1px 0px 0px #fff6af;
-        -webkit-box-shadow: 0px 1px 0px 0px #fff6af;
-        box-shadow: 0px 1px 0px 0px #fff6af;
-        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
-        background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
-        background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
-        background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
-        background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
-        background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
-        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
-        background-color:#ffec64;
-        -webkit-border-radius:6px;
-        -moz-border-radius:6px;
-        border-radius:6px;
-        border:1px solid #ffaa22;
-        display:inline-block;
-        cursor:pointer;
-        color:#333333;
-        font-family:Arial;
-        font-size:25px;
-        font-weight:bold;
-        padding:13px 28px;
-        text-decoration:none;
-        text-shadow:0px 1px 0px #ffee66;
-    }
-    .button_play:hover {
-        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
-        background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
-        background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
-        background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
-        background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
-        background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
-        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
-        background-color:#ffab23;
-    }
-    .button_play:active {
-        position:relative;
-        top:1px;
-    }
-    </style><style>
-    .index_dragon { float:left; margin-right:30px; }
-    .index_dragon img { border:0px; max-height:330px; margin-bottom:10px; }
-    div.containner100 { width:100%;  }
-    div.containner100 img{max-width:100%;border-radius: 10px;border:2px solid #FFFFFF;}
-     .slot_SG1 img { width:48% ;
-     height:270px;
-        cursor: pointer;
-        margin: 10px 10px 0px 0px;
-     }
-     .slot_SG2 img { width:31.5% ;
-     height:180px;
-    
-        cursor: pointer;
-        margin: 10px 10px 0px 0px;
-     }
-     .tbl_huay td{ padding:5px;}
-    </style>
-    <link rel="stylesheet" href="/games/lib/popup/popup.css">
-    
-    <style type="text/css">
-    <!--
-    .style1 {color: #00CC00}
-    -->
-    </style>
-    
-    <script language="javascript" type="text/javascript">
-    var gameWindowStatus = true;
-    function play_now(url) {
-                var window_param = "status=1,toolbar=1,width=" + (window.outerWidth - 200) + ",height=" + (window.outerHeight - 80);
-                var game_url = url;
-    
-                if (gameWindowStatus) {
-                    console.log('game open');
-                    window.open(game_url, 'Launch_Game' , window_param);
-    
-                    gameWindowStatus = false;
-    
-                    setTimeout(function () {
-                        gameWindowStatus = true;
-                    }, 1000);
-                }
-                else 
-                    console.log('game no open');
-            }
-    </script>
-    </head>
-    
-    <body>
-     <div><header>
-    <ul class="header-left">
-    <li><a target="_parent" href="/games/" class="home"><img src="images/icon-home.svg" width="18" align="baseline"> หน้าหลัก</a></li>
-    <li class="id"><img src="images/icon-id.svg"> D4S8V279526392</li>
-    <li id="balance" class="balance"><img src="images/icon-balance.svg"> <span id="user_balance">0.70</span> บาท&nbsp;<a target="_parent" href="index.php"><img src="images/reload32x32.png" width="18" height="18" align="baseline" style="margin:2px 0 0 0;" alt="รีโหลด"></a></li>
-    </ul>
-    <ul class="header-right">
-    <li><a target="_parent" href="_change_lang.php?language=EN"><img src="images/flag/flag-en.svg" width="22" alt="ENG" align="bottom"></a> <a target="_parent" href="_change_lang.php?language=TH"><img src="images/flag/flag-th.svg" width="22" alt="ไทย" align="bottom"></a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
-    <li>[<a target="_parent" href="outstanding.php?m=outstanding">พนันคงค้าง</a>]&nbsp;</li>
-    <li>[<a target="_parent" href="report.php?m=accounting">บัญชีการเงิน</a>]&nbsp;</li>
-    <li>[<a target="_parent" href="/_sys.signout.php">ออกจากระบบ</a>]</li>
-    </ul>
-    &nbsp;&nbsp;&nbsp;
-    </header>
-    </div>
-    <div>
-    <nav>
-    <div id="logo"><img src="images/logo.png" width="200"></div>
-    <ul id="gameHallTabs">
-    <li><a class="icon-hall" href="/games/sport_v1.php?m=sport" target="_parent"><img src="images/icon_football3.png" width="32" style="margin-bottom:4px;"><br>ฟุตบอล</a></li>
-    
-    <li class="select"><a target="_parent" class="icon-live" href="/games/index.php?m=casino"><img src="images/icon-live.svg"><br>คาสิโนสด</a></li>   
-    <li><a target="_parent" class="icon-hall" href="/games/fish.php?m=fish"><img src="images/icon-hall.svg"><br>เกมส์ยิงปลา</a></li>
-    <li><a target="_parent" class="icon-slot" href="/games/slot_premium.php?m=slot_sa"><img src="images/icon-slot.svg"><br>เกมส์สล๊อต</a></li>
-    <li><a target="_parent" class="icon-slot" href="/games/slot_best.php?m=slot_best"><img src="images/index/crown4.png" width="45" style="margin-bottom:9px;"><br>เกมส์แนะนำ</a></li>
-    
-    
-    <li><a target="_parent" href="/games/joker?m=slot_joker"><img src="images/JK/logo_joker.png" width="100" style="margin-bottom:8px; margin-top:10px;"><br>เกมส์โจ๊กเกอร์</a></li>
-    
-    
-    <li><a target="_parent" href="/games/KA?m=slot_ka"><img src="images/KA/logo/logo_dice.png" width="35" style="margin-bottom:2px; margin-top:4px;"><br><span style="font-size:0.7rem;">KA Gaming</span></a></li>
-    
-    <li><a target="_blank" href="/games/pg"><img src="images/brand/pg_white.png" width="90" style="margin-bottom:2px; margin-top:20px; margin-left:10px;"></a></li>
-    
-    
-    </ul>        
-    
-    
-    </nav>
-    </div>
-    
-    <div class="containner100">
-    
-    
-    <div style="margin: 20px 20px 20px 20px; display:flex;">
-      <a href="https://3691-s8v27.asia99th.com/v2/index_dashboard.php" class="mainBtn " id="menu_deposit">กลับไป S8v27.asia3691</a>
-      <a href="https://3691-s8v27.asia99th.com/v2/index_deposit.php" class="mainBtn " id="menu_deposit">ฝากเงิน-เติมเครดิต</a>
-      <a href="https://3691-s8v27.asia99th.com/v2/index_withdraw.php" class="mainBtn" id="menu_withdraw">แจ้งถอนเงิน</a>
-      <a href="https://3691-s8v27.asia99th.com/v2/ticket.php" class="mainBtn" id="menu_ticket">ติดต่อทีมงาน</a>
-    </div>
-    <div class="line1" style="margin-right:10px;"></div>  
-    <br>
-    
-    
-    
-    
-        
-    <br>
-    </div>
-    <div class="containner_full_width" style="border:0px;border-radius:0px; max-width:1130px; min-width:600px;" width="100%">
-    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-    <tbody><tr>
-        <td align="center">
-        <img src="https://img.here999.com/games/images/brand/index_draft2xx.jpg?v" width="90%;" style="border:0px;"></td>
-      </tr>  
-    </tbody></table>
-    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-          <tbody><tr>
-            <td><div style="width:850px; margin:30px auto 0px; auto;  padding-left:30px;font-size:11px; " align="left">
-    
-    
-    
-    <span style="font-size:11px;">[25/06 14:30น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> BNG
-    </span> สล๊อตมาใหม่กว่า 100 เกมส์ ครบทุกทรง แนวไทยๆ<br>
-    
-    
-    <span style="font-size:11px;">[07/06 06:00น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> Server Upgrade!
-    </span> เพื่อรองรับลูกค้าจำนวนมากในขณะนี้ ทีมงานได้อัพเกรด Core Engine ให้เกมส์แทงได้ลื่นขึ้น และไม่มีปัญหาเด้งออก<br>
-    
-    <span style="font-size:11px;">[07/05 23:30น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> Zimba Casino
-    </span> Bikini ไฮโลโป้ แบบไทยๆ สตรีมสดจากคาสิโน<br>
-    
-    <span style="font-size:11px;">[27/04 16:30น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> Candy Bonanza
-    </span> เกมส์ลูกอม ล่าสุดจากค่าย PG ลุ้นแจ็คพ๊อตแตกง่าย<br>
-    
-    <span style="font-size:11px;">[11/04 15:00น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> จรวดวัดใจ
-    </span> Cash Or Crash  เล่นกับเพื่อนได้ บวกง่ายจริง ขึ้นยานแล้ว โดดลงให้ทัน<br>
-    
-    <!--
-    <span style="font-size:11px;">[17/03 19:00น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> ป๊อกเด้ง
-    </span> เปิดตัวใหม่ล่าสุดบนเอเชีย Multiplayers แยกห้อง เล่นกับเพื่อนได้ เวอร์ชั่นล่าสุด Exclusive เฉพาะเอเชีย เวอร์ชั่นนี้ไม่มีที่อื่นแน่นอน<br />
-    
-    <span style="font-size:11px;">[09/03 10:00น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> FG
-    </span> เปิดตัวใหม่ล่าสุดบนเอเชีย FunGaming เกมส์ทุบตัวตุ่น และตะลุยด่านอีกหลายตัว ภาพสวย<br />
-    
-    <span style="font-size:11px;">[01/03 08:00น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> EVO PLAY
-    </span> เริ่มที่ 0.30 บาทต่อสปินเท่านั้น เหมาะอย่างยิ่ง สำหรับสมาชิกวงเงินน้อย <br />
-    
-    <span style="font-size:11px;">[24/02 03:30น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> JOKER
-    </span> เปิดตัวใหม่ล่าสุดบนเอเชีย ยิงปลา 15 ตัว เลือกโต๊ะลงได้ สล๊อตอีกร้อยเกมส์<br />
-    
-    <span style="font-size:11px;">[21/02 03:30น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> FUN MODE
-    </span> สมาชิกสามารถลองเล่นเกมส์ ทดลองเล่น ไม่ใช้เงินจริง ได้ที่เมนูล่างสุดของจอ<br />
-    
-    <span style="font-size:11px;">[02/01 15:00น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> GDG 
-    </span>บาคาร่า คืนค่าคอม 0.8% ทุกยอดได้เสีย คืนให้ทันทีทุกตา แทง 10,000 คืนทันที 80 บาท<br />
-    -->
-    
-    </div>
-        
-        </td>
-          </tr>
-    </tbody></table>
-    <table width="100%">
-     <tbody><tr>
-        <td align="center"> <div style=" max-width:600px; margin-top:0px; width:90%; height:260px; border:0px;"><iframe src="lib/running_number/running.php" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="" style="width:100%; border:0px; height:260px;"></iframe></div></td>
-      </tr>
-    </tbody></table>
-    
-    
-    
-    
-    
-    
-    
-    <div align="center" style="margin-top:30px;">
-        <img src="https://img.here999.com/games/images/ZB/banner.jpg?v1" style="border:0px;border-radius:15px; width:100%" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_ZB.php?game=ZB&amp;game_id=503&amp;game_name=Zimba')">
-        
-    <br><br>
-    <br>
-    <button class="button_test" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_ZB_demo.php?game=ZB&amp;game_id=0&amp;game_name=Zimba')">&lt;&lt; ทดลองเล่น &gt;&gt;</button>
-    <br><br>
-    บัญชีทดลองเล่น รับเครดิต 200,000 บาท
-    
-    <br>
-    <br>
-    <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_ZB.php?game=ZB&amp;game_id=601&amp;game_name=Zimba')">&lt;&lt; บาคาร่า</button>
-    <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_ZB.php?game=ZB&amp;game_id=0&amp;game_name=Zimba')">ทางเข้าล๊อบบี้</button>
-    <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_ZB.php?game=ZB&amp;game_id=501&amp;game_name=Zimba')">บิกินี่ ไฮโล &gt;&gt;</button>
-    
-    </div>
-    
-    <div align="center" style="margin-top:60px;">
-        <img src="https://img.here999.com/games/images/EV/banner5.jpg" style="border:0px;border-radius:15px; width:100%">
-        
-    <br><br>
-    <br>
-          
-    <button class="button_test" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5452&amp;game_name=Dungeon&amp;mode=demo')">ทดลองเล่น &gt;&gt;</button>
-            
-    <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5452&amp;game_name=Dungeon')">เข้าเล่นเกมส์ &gt;&gt;</button>
-    
-    </div>
-    
-    
-    
-    <!--
-    <div align="center" style="margin-top:30px;">
-        <img src="https://img.here999.com/games/images/FG/sheet/5007.jpg" style="border:0px;border-radius:15px; width:100%" />
-        
-    <br /><br />
-    <br />
-          
-    <button class="button_test"  onclick="play_now('/games/api/launch_FG.php?game=FG&game_id=fish_mfwz&game_name=The Magicians&free=yes')">ทดลองเล่น &gt;&gt;</button>
-            
-    <button class="button_play" style="margin-left:20px;" onclick="play_now('/games/api/launch_FG.php?game=FG&game_id=fish_mfwz&game_name=The Magicians')">เข้าเล่นเกมส์ &gt;&gt;</button>
-    
-    </div>
-    
-    -->
-    
-    <div align="center" style="margin-top:30px;">
-        <img src="https://img.here999.com/games/images/FK/banner/602813.jpg" style="border:0px;border-radius:15px; width:100%">
-        
-    <br><br>
-    <br>
-         
-    <button class="button_test" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FK.php?game=FK&amp;game_id=602813&amp;game_name=Football-Strike&amp;free=yes')">ทดลองเล่น &gt;&gt;</button>
-        
-    <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FK.php?game=FK&amp;game_id=602813&amp;game_name=Football-Strike')">เข้าเล่นเกมส์ &gt;&gt;</button>
-    
-    </div>
-    
-    
-    <div align="center" style="margin-top:30px;">
-        <img src="https://img.here999.com/games/images/FK/banner/602817x.jpg" style="border:0px;border-radius:15px; width:100%">
-        
-    <br><br>
-    <br>
-          
-    <button class="button_test" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FK.php?game=FK&amp;game_id=602817&amp;game_name=Cash-Or-Crash&amp;free=yes')">ทดลองเล่น &gt;&gt;</button>
-          
-    <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FK.php?game=FK&amp;game_id=602817&amp;game_name=Cash-Or-Crash')">เข้าเล่นเกมส์ &gt;&gt;</button>
-    
-    </div>
-    
-    <div align="center" style="margin-top:30px;">
-        <img src="https://img.here999.com/games/images/FK/banner/602819.jpg" style="border:0px;border-radius:15px; width:100%">
-        
-    <br><br>
-    <br>
-          
-    <button class="button_test" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FK.php?game=FK&amp;game_id=602819&amp;game_name=น้ำเต้าปูปลา&amp;free=yes')">ทดลองเล่น &gt;&gt;</button>
-          
-    <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FK.php?game=FK&amp;game_id=602819&amp;game_name=น้ำเต้าปูปลา')">เข้าเล่นเกมส์ &gt;&gt;</button>
-    
-    </div>
-    
-    <div align="center" style="margin-top:30px;">
-        <img src="https://img.here999.com/games/images/FK/banner/602821.jpg" style="border:0px;border-radius:15px; width:100%">
-        
-    <br><br>
-    <br>
-          
-    <button class="button_test" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FK.php?game=FK&amp;game_id=602821&amp;game_name=Virtual-Baccarat&amp;free=yes')">ทดลองเล่น &gt;&gt;</button>
-          
-    <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FK.php?game=FK&amp;game_id=602821&amp;game_name=Virtual-Baccarat')">เข้าเล่นเกมส์ &gt;&gt;</button>
-    
-    </div>
-    
-    <!--
-    <div align="center" style="margin-top:30px;">
-        <img src="https://img.here999.com/games/images/EV/banner_texas.jpg" style="border:0px;border-radius:15px; width:100%" />
-        
-    <br /><br />
-    <br />
-          
-    <button class="button_test"  onclick="play_now('/games/api/launch_EV.php?game=EV&game_id=5679&game_name=TexasHoldem&mode=demo')">ทดลองเล่น &gt;&gt;</button>
-            
-    <button class="button_play" style="margin-left:20px;" onclick="play_now('/games/api/launch_EV.php?game=EV&game_id=5679&game_name=TexasHoldem')">เข้าเล่นเกมส์ &gt;&gt;</button>
-    
-    </div>
-    -->
-    
-    
-    
-    <div align="center" style="margin-top:30px;">
-        <img src="https://img.here999.com/games/images/FG/sheet/5008.jpg" style="border:0px;border-radius:15px; width:100%">
-        
-    <br><br>
-    <br>
-          
-    <button class="button_test" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FG.php?game=FG&amp;game_id=fish_lsdr&amp;game_name=Mole Rat Catcher3D&amp;free=yes')">ทดลองเล่น &gt;&gt;</button>
-            
-    <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FG.php?game=FG&amp;game_id=fish_lsdr&amp;game_name=Mole Rat Catcher3D')">เข้าเล่นเกมส์ &gt;&gt;</button>
-    
-    </div>
-    
-    
-    
-    <div align="center" style="margin-top:30px;">
-        <img src="https://img.here999.com/games/images/PG/candybonanza.jpg" style="border:0px;border-radius:15px; width:100%">
-        
-    <br><br>
-    <br>
-          
-    <button class="button_test" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG_H.php?game=PG&amp;game_id=candy-bonanza&amp;game_name=candy-bonanza&amp;frame=YES&amp;free=yes')">ทดลองเล่น &gt;&gt;</button>
-            
-    <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG_H.php?game=PG&amp;game_id=candy-bonanza&amp;game_name=candy-bonanza&amp;frame=YES')">เข้าเล่นเกมส์ &gt;&gt;</button>
-    
-    </div>
-    
-    <div align="center" style="margin-top:50px;">
-            <img src="https://img.here999.com/games/images/EV/candy2.jpg" width="100%" style="border:0px;border-radius:15px; width:100%;cursor:pointer;">       
-            <div align="center">
-            <button class="button_test" style="margin-right:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=296&amp;game_name=Candy_Dream&amp;mode=demo')">ทดลองเล่น &gt;&gt;</button>
-           
-            <button class="button_play" style="margin:30px auto 20px auto" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=296&amp;game_name=Candy_Dream')">เข้าเล่นเกมส์ &gt;&gt;</button>
-            </div>
-    </div>
-    
-    
-    <div align="center" style="margin-top:30px;">
-    
-    
-            
-        
-        <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_TH2.php?game=TH&amp;game_id=1&amp;game_name=%E0%B9%84%E0%B8%97%E0%B8%A2-11-%E0%B9%84%E0%B8%AE%E0%B9%82%E0%B8%A5')" target="_blank"><img src="https://img.here999.com/games/images/TH/banner.jpg" style="border:0px;border-radius:15px; width:100%;cursor:pointer;"></a>
-        
-    <br><br>
-    <br>
-         
-    <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_TH2.php?game=TH&amp;game_id=1&amp;game_name=%E0%B9%84%E0%B8%97%E0%B8%A2-11-%E0%B9%84%E0%B8%AE%E0%B9%82%E0%B8%A5')">เข้าเล่นเกมส์ &gt;&gt;</button>
-    
-    
-    </div>
-    
-    
-    
-    
-    
-    <div class="slot_sg" style="margin-left:0px; margin-top:30px;">
-        <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FG.php?game=FG&amp;game_id=HB&amp;game_name=Hundreds of Bull')"><img src="https://img.here999.com/games/images/FG/jpg/6003.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
-          
-          margin-right:15px;      
-          width:49%; border:0px;border-radius:15px; "></a>
-            <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FG.php?game=FG&amp;game_id=cp&amp;game_name=Candy Party')"><img src="https://img.here999.com/games/images/FG/jpg/7021.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
-          
-          margin-right:0px;      
-          width:49%; border:0px;border-radius:15px; "></a>
-        </div>  
-    <div align="center"><button class="button_play" style="margin:30px auto 50px auto" onclick="if (!window.__cfRLUnblockHandlers) return false; self.location='/games/FG';">เกมส์อื่นๆ ค่าย FG &gt;&gt;</button></div>
-    
-    
-    <div align="center" style="margin-top:10px;">
-            <img src="https://img.here999.com/games/images/KM/pokdeng3.jpg?v1" width="100%" style="border:0px;border-radius:15px; width:100%;cursor:pointer;">       
-            <div align="center">
-            <button class="button_test" style="margin-right:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KM.php?provider=KMQM&amp;game=KM&amp;game_id=Kingmaker_Pok_Deng&amp;game_name=Pok_Deng&amp;free=yes')">ทดลองเล่น &gt;&gt;</button>
-           
-            <button class="button_play" style="margin:30px auto 20px auto" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KM.php?provider=KMQM&amp;game=KM&amp;game_id=Kingmaker_Pok_Deng&amp;game_name=Pok_Deng&amp;mode=prd')">เข้าเล่นเกมส์ &gt;&gt;</button>
-            </div>
-    </div>
-    
-    
-    </div> <!-- <div class="containner_full_width"> -->
-    
-    
-    
-    <div class="containner">
-          
-        
-    <table class="tbl">
-    <tbody><tr>
-        <td>
-    
-        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-          <tbody><tr>
-            <td align="center">
-    
-    
-    
-    <div style=" padding-left:0px; text-align:center;">
-    <a href="/games/api/launch_BNG.php?game=BNG&amp;game_id=197&amp;game_name=197&amp;frame=YES&amp;mode=prd" target="_blank">        <img src="https://img.here999.com/games/images/BNG/img/197.png" style="margin-top:10px;margin-right:10px; width:23%;">
-    </a><a href="/games/api/launch_BNG.php?game=BNG&amp;game_id=203&amp;game_name=203&amp;frame=YES&amp;mode=prd" target="_blank">        <img src="https://img.here999.com/games/images/BNG/img/203.png" style="margin-top:10px;margin-right:10px; width:23%;">
-    </a><a href="/games/api/launch_BNG.php?game=BNG&amp;game_id=151&amp;game_name=151&amp;frame=YES&amp;mode=prd" target="_blank">        <img src="https://img.here999.com/games/images/BNG/img/151.png" style="margin-top:10px;margin-right:10px; width:23%;">
-    </a><a href="/games/api/launch_BNG.php?game=BNG&amp;game_id=228&amp;game_name=228&amp;frame=YES&amp;mode=prd" target="_blank">        <img src="https://img.here999.com/games/images/BNG/img/228.png" style="margin-top:10px;margin-right:10px; width:23%;">
-    </a><a href="/games/api/launch_BNG.php?game=BNG&amp;game_id=219&amp;game_name=219&amp;frame=YES&amp;mode=prd" target="_blank">        <img src="https://img.here999.com/games/images/BNG/img/219.png" style="margin-top:10px;margin-right:10px; width:23%;">
-    </a><a href="/games/api/launch_BNG.php?game=BNG&amp;game_id=223&amp;game_name=223&amp;frame=YES&amp;mode=prd" target="_blank">        <img src="https://img.here999.com/games/images/BNG/img/223.png" style="margin-top:10px;margin-right:10px; width:23%;">
-    </a><a href="/games/api/launch_BNG.php?game=BNG&amp;game_id=231&amp;game_name=231&amp;frame=YES&amp;mode=prd" target="_blank">        <img src="https://img.here999.com/games/images/BNG/img/231.png" style="margin-top:10px;margin-right:10px; width:23%;">
-    </a><a href="/games/api/launch_BNG.php?game=BNG&amp;game_id=202&amp;game_name=202&amp;frame=YES&amp;mode=prd" target="_blank">        <img src="https://img.here999.com/games/images/BNG/img/202.png" style="margin-top:10px;margin-right:10px; width:23%;">
-    </a><br>
-     <button class="button_test" style="margin-right:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; location='free?m=free#FREE_BNG';">ทดลองเล่น BNG &gt;&gt;</button>  <button class="button_play" style="margin:30px auto 50px auto" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_BNG.php?game=BNG&amp;game_id=lobby&amp;game_name=lobby&amp;frame=NO&amp;mode=prd');">เกมส์อื่นๆ ค่าย BNG &gt;&gt;</button>
-     
-    <br>
-    </div>
-    <div style=" padding-left:0px; text-align:center;">
-          <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5749&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/5749.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
-          
-          margin-right:25px;      
-          width:22%; border:0px;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5755&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/5755.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
-          
-          margin-right:25px;      
-          width:22%; border:0px;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5717&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/5717.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
-          
-          margin-right:25px;      
-          width:22%; border:0px;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5742&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/5742.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
-          
-          margin-right:25px;      
-          width:22%; border:0px;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5677&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/5677.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
-          
-          margin-right:25px;      
-          width:22%; border:0px;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5751&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/5751.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
-          
-          margin-right:25px;      
-          width:22%; border:0px;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=28&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/28.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
-          
-          margin-right:25px;      
-          width:22%; border:0px;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=736&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/736.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
-          
-          margin-right:25px;      
-          width:22%; border:0px;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5643&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/5643.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
-          
-          margin-right:25px;      
-          width:22%; border:0px;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=988&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/988.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
-          
-          margin-right:25px;      
-          width:22%; border:0px;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=296&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/296.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
-          
-          margin-right:25px;      
-          width:22%; border:0px;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5695&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/5695.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
-          
-          margin-right:25px;      
-          width:22%; border:0px;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=88&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/88.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
-          
-          margin-right:25px;      
-          width:22%; border:0px;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=979&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/979.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
-          
-          margin-right:25px;      
-          width:22%; border:0px;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5721&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/5721.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
-          
-          margin-right:25px;      
-          width:22%; border:0px;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=949&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/949.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
-          
-          margin-right:25px;      
-          width:22%; border:0px;"> </a>
-          <br>
-     <button class="button_test" style="margin-right:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; location='free?m=free#FREE_EVO';">ทดลองเล่น EVO &gt;&gt;</button>  <button class="button_play" style="margin:30px auto 50px auto" onclick="if (!window.__cfRLUnblockHandlers) return false; self.location='/games/EV';">เกมส์อื่นๆ ค่าย EVO &gt;&gt;</button>
-    <br>
-    </div>
-    
-    <div style="clear:both;"></div>
-            
-          <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=flirting-scholar&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/flirting-scholar.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=ninja-vs-samurai&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/ninja-vs-samurai.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=muay-thai-champion&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/muay-thai-champion.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=leprechaun-riches&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/leprechaun-riches.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=bikini-paradise&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/bikini-paradise.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=candy-burst&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/candy-burst.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=dragon-hatch&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/dragon-hatch.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=dragon-legend&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/dragon-legend.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=jewels-prosper&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/jewels-prosper.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=queen-bounty&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/queen-bounty.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=sct-cleopatra&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/sct-cleopatra.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=fortune-mouse&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/fortune-mouse.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
-          
-    <br><br>
-     <button class="button_test" onclick="if (!window.__cfRLUnblockHandlers) return false; location='free?m=free#FREE_PG';">ทดลองเล่น PG &gt;&gt;</button>
-            
-    <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/pg');">เกมส์อื่นๆ ค่าย PG &gt;&gt;</button><br>        </td>
-          </tr><tr><td>&nbsp;</td></tr>
-    
-    
-          <tr>
-            <td align="center">
-            <img src="https://img.here999.com/games/images/DRG/sheet2/1004.jpg" width="92%" style="border:0px; cursor:pointer;">
-            <br>
-    <br>
-    
-            <button class="button_test" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_DRG.php?game=DR&amp;game_id=1004&amp;game_name=DinoHunter&amp;free=yes')">ทดลองเล่น &gt;&gt;</button>
-            
-            <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_DRG.php?game=DR&amp;game_id=1004&amp;game_name=DinoHunter')">เข้าเล่นเกมส์ &gt;&gt;</button>
-    
-            </td>
-          </tr>
-          
-          
-          <tr>
-            <td align="center">&nbsp;</td>
-          </tr>
-        
-       
-        
-        
-        </tbody></table>
-        
-        
-        
-        
-        
-        
-        </td>
-      </tr>
-      <tr>
-        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-          <tbody><tr>
-            <td align="center" width="50%"><img src="https://img.here999.com/games/images/GG/banner.jpg" width="90%" style="border:0px;"></td>
-            <td><img src="https://img.here999.com/games/images/GG/banner2.jpg" width="85%" style="border:0px;"><br>
-              <br>
-    <img src="https://img.here999.com/games/images/GG/banner3.jpg" style="border:0px;" width="85%"><br>
-    <br>
-    <br>
-    <div>
-    <button class="button_play" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_gg.php?game=GG&amp;game_id=110&amp;game_name=none');">เข้าเล่นเกมส์ &gt;&gt;</button><br>
-    <br>
-    **โหมดลองเล่น อยู่ข้างในเกมส์ จะมีปุ่ม ทดลองใช้ฟรี อยู่ในล๊อบบี้เกมส์**</div></td>
-          </tr>
-        </tbody></table></td>
-      </tr>
+  
+  }
+  table.tbl {
+    width:100%;
+    /*min-width:1070px;*/
+  }
+  .index_img img{
+  border:2px solid #FFFFFF;
+  width:48%;
+  height:225px;
+  }
+  div.line1 {
+  border:2px solid #FFFF00; margin-left:10px;
+  }
+  div.line2 {
+  border:2px solid #FFFF00; margin-left:0px; margin-bottom:10px;
+  }
+  
+  .slot_fac{ width:500px;}
+  .slot_fac img{
+  width:152px; height:160px; display:inline;
+  margin-right:3px; margin-bottom:8px;
+  }
+  .slot_sexy img{
+  width:30%; display:inline; cursor:pointer;
+  margin:0px 0px 20px 20px;
+  }
+  .slot_sexy{ width:100%;}
+  
+  .slot_sa img{
+  width:46.5%; display:inline; cursor:pointer;
+  margin:10px 0px 0px 20px;
+  }
+  .slot_sa{ width:100%;}
+  
+  .slot_cq img{
+  width:200px; display:inline; cursor:pointer;
+  margin:10px 0px 0px 20px;
+  }
+  .slot_cq{ width:100%;}
+  
+  
+  .slot_sf img{
+  width:46.5%; display:inline; cursor:pointer;
+  margin:0px 0px 20px 20px;
+  }
+  .slot_sf{ width:100%;}
+  
+  
+  .fsz_rem01 { font-size: 0.1rem; }
+  .fsz_rem02 { font-size: 0.2rem; }
+  .fsz_rem03 { font-size: 0.3rem; }
+  .fsz_rem04 { font-size: 0.4rem; }
+  .fsz_rem05 { font-size: 0.5rem; }
+  .fsz_rem06 { font-size: 0.6rem; }
+  .fsz_rem07 { font-size: 0.7rem; }
+  .fsz_rem08 { font-size: 0.8rem; }
+  .fsz_rem09 { font-size: 0.9rem; }
+  .fsz_rem10 { font-size: 1.0rem; }
+  .fsz_rem11 { font-size: 1.1rem; }
+  .fsz_rem12 { font-size: 1.2rem; }
+  .fsz_rem13 { font-size: 1.3rem; }
+  .fsz_rem14 { font-size: 1.4rem; }
+  .fsz_rem15 { font-size: 1.5rem; }
+  .fsz_rem16 { font-size: 1.6rem; }
+  .fsz_rem17 { font-size: 1.7rem; }
+  .fsz_rem18 { font-size: 1.8rem; }
+  .fsz_rem19 { font-size: 1.9rem; }
+  .fsz_rem20 { font-size: 2.0rem; }
+  .fsz_rem22 { font-size: 2.2rem; }
+  .fsz_rem24 { font-size: 2.4rem; }
+  .fsz_rem26 { font-size: 2.6rem; }
+  .fsz_rem28 { font-size: 2.8rem; }
+  .fsz_rem30 { font-size: 3.0rem; }
+  .fsz_rem32 { font-size: 3.2rem; }
+  .fsz_rem34 { font-size: 3.4rem; }
+  .fsz_rem36 { font-size: 3.6rem; }
+  .fsz_rem38 { font-size: 3.8rem; }
+  .fsz_rem40 { font-size: 4.0rem; }
+  
+  
+  .slot_sp{ width:100%;}
+  .slot_sp img{
+  width:46.5%; display:inline; cursor:pointer;
+  margin:10px 0px 0px 20px;
+  }
+  .overlay-image {
+   position: relative;
+   width: 100%;
+   display:inline;
+  }
+  .overlay-image .hover {
+   position: absolute;
+   top: -160px; left:20px;
+   height: 100%;
+   width: 100%;
+   opacity: 1;
+   transition: .5s ease;
+   cursor:pointer;
+  }
+  .overlay-image .hover img {
+   height: 50px;
+   width: 50px;
+   border:0;
+   cursor:pointer;
+  }
+  .overlay-image .hover .text {
+  margin-left:35px; color:#ff; font-size:10px; font-weight:bold;
+  }
+  /* New overlay appearance on hover */
+  .overlay-image:hover .hover {
+   opacity: 1;
+  }
+  
+  .overlay-image2 {
+   position: relative;
+   width: 100%;
+   display:inline;
+  }
+  .overlay-image2 .hover {
+   position: absolute;
+   top: -60px; left:20px;
+   height: 100%;
+   width: 100%;
+   opacity: 1;
+   transition: .5s ease;
+   cursor:pointer;
+  }
+  .overlay-image2 .hover img {
+   height: 50px;
+   width: 50px;
+   border:0;
+   cursor:pointer;
+  }
+  .overlay-image2 .hover .text {
+  margin-left:12px; color:#fff; font-size:10px; font-weight:bold;
+  }
+  /* New overlay appearance on hover */
+  .overlay-image2:hover .hover {
+   opacity: 1;
+  }
+  
+  .btn_wallet {
+    box-shadow: 0px 1px 0px 0px #fff6af;
+    background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    background-color:#ffec64;
+    border-radius:6px;
+    border:1px solid #ffaa22;
+    display:inline-block;
+    cursor:pointer;
+    color:#333333 !important;
+    font-family:Arial;
+    font-size:2.0rem;
+    font-weight:bold;
+    padding:11px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffee66;
+    margin:20px;
+  }
+  .btn_wallet:hover {
+    background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+    background-color:#ffab23;
+  }
+  .btn_wallet:active {
+    position:relative;
+    top:1px;
+  }
+  .popup-modal-dismiss { font-size:2.0rem}
+  
+  .mainBtn {
+    display: inline-block; text-align: center; margin:0 10px 0 0; font-size:1.1rem;
+    color: #e0b602; width: 20%; background: #222222; /* font-weight: bold; */ line-height: 110%; padding: 13px 0 0 0;
+    border: 1px solid #e0b602; border-radius: 4px;
+    background: -moz-linear-gradient(top,  #222222 0%, #222222 10%, #000000 100%);
+    background: -webkit-linear-gradient(top,  #222222 0%,#222222 10%,#000000 100%);
+    /* background: linear-gradient(to bottom,  #222222 0%,#222222 10%,#000000 100%); */
+    background: linear-gradient(to bottom, #e0b602 0%,#e0b602 10%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#000000',GradientType=0 );
+  }
+  .mainBtn {
+  height: 35px;
+  }
+  .mainBtn2 {
+    color: #fff; width: 30%; background: #e0b602; font-weight: bold; line-height: 120%; padding: 10px 0;
+    display: inline-block; text-align: center;
+    border: 1px solid #e0b602; border-radius: 4px;
+    background: -moz-linear-gradient(top,  #e0b602 0%, #e0b602 10%, #000000 90%);
+    background: -webkit-linear-gradient(top,  #e0b602 0%,#e0b602 10%,#000000 90%);
+    background: linear-gradient(to bottom,  #e0b602 0%,#e0b602 10%,#000000 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0b602', endColorstr='#000000',GradientType=0 );
+  height: 62px; font-size:1.5rem;
+  }
+  .mainBtn2:hover{text-decoration:none; color:#FFFFFF}
+  
+  
+  .button_test {
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+    background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+    background-color:#ffffff;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#666666;
+    font-family:Arial;
+    font-size:25px;
+    font-weight:bold;
+    padding:13px 28px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+  }
+  .button_test:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+    background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+    background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+    background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+    background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+    background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
+    background-color:#f6f6f6;
+  }
+  .button_test:active {
+    position:relative;
+    top:1px;
+  }
+  
+  .button_play {
+    -moz-box-shadow: 0px 1px 0px 0px #fff6af;
+    -webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+    box-shadow: 0px 1px 0px 0px #fff6af;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+    background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+    background-color:#ffec64;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #ffaa22;
+    display:inline-block;
+    cursor:pointer;
+    color:#333333;
+    font-family:Arial;
+    font-size:25px;
+    font-weight:bold;
+    padding:13px 28px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffee66;
+  }
+  .button_play:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+    background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+    background-color:#ffab23;
+  }
+  .button_play:active {
+    position:relative;
+    top:1px;
+  }
+  </style><style>
+  .index_dragon { float:left; margin-right:30px; }
+  .index_dragon img { border:0px; max-height:330px; margin-bottom:10px; }
+  div.containner100 { width:100%;  }
+  div.containner100 img{max-width:100%;border-radius: 10px;border:2px solid #FFFFFF;}
+   .slot_SG1 img { width:48% ;
+   height:270px;
+      cursor: pointer;
+      margin: 10px 10px 0px 0px;
+   }
+   .slot_SG2 img { width:31.5% ;
+   height:180px;
+  
+      cursor: pointer;
+      margin: 10px 10px 0px 0px;
+   }
+   .tbl_huay td{ padding:5px;}
+  </style>
+  <link rel="stylesheet" href="/games/lib/popup/popup.css">
+  
+  <style type="text/css">
+  <!--
+  .style1 {color: #00CC00}
+  -->
+  </style>
+  
+  <script language="javascript" type="text/javascript">
+  var gameWindowStatus = true;
+  function play_now(url) {
+              var window_param = "status=1,toolbar=1,width=" + (window.outerWidth - 200) + ",height=" + (window.outerHeight - 80);
+              var game_url = url;
+  
+              if (gameWindowStatus) {
+                  console.log('game open');
+                  window.open(game_url, 'Launch_Game' , window_param);
+  
+                  gameWindowStatus = false;
+  
+                  setTimeout(function () {
+                      gameWindowStatus = true;
+                  }, 1000);
+              }
+              else 
+                  console.log('game no open');
+          }
+  </script>
+  </head>
+  
+  <body>
+   <div><header>
+  <ul class="header-left">
+  <li><a target="_parent" href="/games/" class="home"><img src="images/icon-home.svg" width="18" align="baseline"> หน้าหลัก</a></li>
+  <li class="id"><img src="images/icon-id.svg"> D4S8V279526392</li>
+  <li id="balance" class="balance"><img src="images/icon-balance.svg"> <span id="user_balance">0.70</span> บาท&nbsp;<a target="_parent" href="index.php"><img src="images/reload32x32.png" width="18" height="18" align="baseline" style="margin:2px 0 0 0;" alt="รีโหลด"></a></li>
+  </ul>
+  <ul class="header-right">
+  <li><a target="_parent" href="_change_lang.php?language=EN"><img src="images/flag/flag-en.svg" width="22" alt="ENG" align="bottom"></a> <a target="_parent" href="_change_lang.php?language=TH"><img src="images/flag/flag-th.svg" width="22" alt="ไทย" align="bottom"></a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+  <li>[<a target="_parent" href="outstanding.php?m=outstanding">พนันคงค้าง</a>]&nbsp;</li>
+  <li>[<a target="_parent" href="report.php?m=accounting">บัญชีการเงิน</a>]&nbsp;</li>
+  <li>[<a target="_parent" href="/_sys.signout.php">ออกจากระบบ</a>]</li>
+  </ul>
+  &nbsp;&nbsp;&nbsp;
+  </header>
+  </div>
+  <div>
+  <nav>
+  <div id="logo"><img src="images/logo.png" width="200"></div>
+  <ul id="gameHallTabs">
+  <li><a class="icon-hall" href="/games/sport_v1.php?m=sport" target="_parent"><img src="images/icon_football3.png" width="32" style="margin-bottom:4px;"><br>ฟุตบอล</a></li>
+  
+  <li class="select"><a target="_parent" class="icon-live" href="/games/index.php?m=casino"><img src="images/icon-live.svg"><br>คาสิโนสด</a></li>   
+  <li><a target="_parent" class="icon-hall" href="/games/fish.php?m=fish"><img src="images/icon-hall.svg"><br>เกมส์ยิงปลา</a></li>
+  <li><a target="_parent" class="icon-slot" href="/games/slot_premium.php?m=slot_sa"><img src="images/icon-slot.svg"><br>เกมส์สล๊อต</a></li>
+  <li><a target="_parent" class="icon-slot" href="/games/slot_best.php?m=slot_best"><img src="images/index/crown4.png" width="45" style="margin-bottom:9px;"><br>เกมส์แนะนำ</a></li>
+  
+  
+  <li><a target="_parent" href="/games/joker?m=slot_joker"><img src="images/JK/logo_joker.png" width="100" style="margin-bottom:8px; margin-top:10px;"><br>เกมส์โจ๊กเกอร์</a></li>
+  
+  
+  <li><a target="_parent" href="/games/KA?m=slot_ka"><img src="images/KA/logo/logo_dice.png" width="35" style="margin-bottom:2px; margin-top:4px;"><br><span style="font-size:0.7rem;">KA Gaming</span></a></li>
+  
+  <li><a target="_blank" href="/games/pg"><img src="images/brand/pg_white.png" width="90" style="margin-bottom:2px; margin-top:20px; margin-left:10px;"></a></li>
+  
+  
+  </ul>        
+  
+  
+  </nav>
+  </div>
+  
+  <div class="containner100">
+  
+  
+  <div style="margin: 20px 20px 20px 20px; display:flex;">
+    <a href="https://3691-s8v27.asia99th.com/v2/index_dashboard.php" class="mainBtn " id="menu_deposit">กลับไป S8v27.asia3691</a>
+    <a href="https://3691-s8v27.asia99th.com/v2/index_deposit.php" class="mainBtn " id="menu_deposit">ฝากเงิน-เติมเครดิต</a>
+    <a href="https://3691-s8v27.asia99th.com/v2/index_withdraw.php" class="mainBtn" id="menu_withdraw">แจ้งถอนเงิน</a>
+    <a href="https://3691-s8v27.asia99th.com/v2/ticket.php" class="mainBtn" id="menu_ticket">ติดต่อทีมงาน</a>
+  </div>
+  <div class="line1" style="margin-right:10px;"></div>  
+  <br>
+  
+  
+  
+  
       
-    <!--
-      <tr>
-        <td height="" align="center" valign="bottom"  style="padding-left:10px;padding-right:20px;"><div class="line1"></div></td>
-        </tr><tr><td>
+  <br>
+  </div>
+  <div class="containner_full_width" style="border:0px;border-radius:0px; max-width:1130px; min-width:600px;" width="100%">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+      <td align="center">
+      <img src="https://img.here999.com/games/images/brand/index_draft2xx.jpg?v" width="90%;" style="border:0px;"></td>
+    </tr>  
+  </tbody></table>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tbody><tr>
+          <td><div style="width:850px; margin:30px auto 0px; auto;  padding-left:30px;font-size:11px; " align="left">
+  
+  
+  
+  <span style="font-size:11px;">[25/06 14:30น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> BNG
+  </span> สล๊อตมาใหม่กว่า 100 เกมส์ ครบทุกทรง แนวไทยๆ<br>
+  
+  
+  <span style="font-size:11px;">[07/06 06:00น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> Server Upgrade!
+  </span> เพื่อรองรับลูกค้าจำนวนมากในขณะนี้ ทีมงานได้อัพเกรด Core Engine ให้เกมส์แทงได้ลื่นขึ้น และไม่มีปัญหาเด้งออก<br>
+  
+  <span style="font-size:11px;">[07/05 23:30น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> Zimba Casino
+  </span> Bikini ไฮโลโป้ แบบไทยๆ สตรีมสดจากคาสิโน<br>
+  
+  <span style="font-size:11px;">[27/04 16:30น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> Candy Bonanza
+  </span> เกมส์ลูกอม ล่าสุดจากค่าย PG ลุ้นแจ็คพ๊อตแตกง่าย<br>
+  
+  <span style="font-size:11px;">[11/04 15:00น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> จรวดวัดใจ
+  </span> Cash Or Crash  เล่นกับเพื่อนได้ บวกง่ายจริง ขึ้นยานแล้ว โดดลงให้ทัน<br>
+  
+  <!--
+  <span style="font-size:11px;">[17/03 19:00น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> ป๊อกเด้ง
+  </span> เปิดตัวใหม่ล่าสุดบนเอเชีย Multiplayers แยกห้อง เล่นกับเพื่อนได้ เวอร์ชั่นล่าสุด Exclusive เฉพาะเอเชีย เวอร์ชั่นนี้ไม่มีที่อื่นแน่นอน<br />
+  
+  <span style="font-size:11px;">[09/03 10:00น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> FG
+  </span> เปิดตัวใหม่ล่าสุดบนเอเชีย FunGaming เกมส์ทุบตัวตุ่น และตะลุยด่านอีกหลายตัว ภาพสวย<br />
+  
+  <span style="font-size:11px;">[01/03 08:00น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> EVO PLAY
+  </span> เริ่มที่ 0.30 บาทต่อสปินเท่านั้น เหมาะอย่างยิ่ง สำหรับสมาชิกวงเงินน้อย <br />
+  
+  <span style="font-size:11px;">[24/02 03:30น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> JOKER
+  </span> เปิดตัวใหม่ล่าสุดบนเอเชีย ยิงปลา 15 ตัว เลือกโต๊ะลงได้ สล๊อตอีกร้อยเกมส์<br />
+  
+  <span style="font-size:11px;">[21/02 03:30น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> FUN MODE
+  </span> สมาชิกสามารถลองเล่นเกมส์ ทดลองเล่น ไม่ใช้เงินจริง ได้ที่เมนูล่างสุดของจอ<br />
+  
+  <span style="font-size:11px;">[02/01 15:00น.]</span>&nbsp;&nbsp;<span style="color:#00CC00"> GDG 
+  </span>บาคาร่า คืนค่าคอม 0.8% ทุกยอดได้เสีย คืนให้ทันทีทุกตา แทง 10,000 คืนทันที 80 บาท<br />
+  -->
+  
+  </div>
     
-    <table class="tbl">
+      </td>
+        </tr>
+  </tbody></table>
+  <table width="100%">
+   <tbody><tr>
+      <td align="center"> <div style=" max-width:600px; margin-top:0px; width:90%; height:260px; border:0px;"><iframe src="lib/running_number/running.php" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="" style="width:100%; border:0px; height:260px;"></iframe></div></td>
+    </tr>
+  </tbody></table>
+  
+  
+  
+  
+  
+  
+  
+  <div align="center" style="margin-top:30px;">
+      <img src="https://img.here999.com/games/images/ZB/banner.jpg?v1" style="border:0px;border-radius:15px; width:100%" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_ZB.php?game=ZB&amp;game_id=503&amp;game_name=Zimba')">
+    
+  <br><br>
+  <br>
+  <button class="button_test" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_ZB_demo.php?game=ZB&amp;game_id=0&amp;game_name=Zimba')">&lt;&lt; ทดลองเล่น &gt;&gt;</button>
+  <br><br>
+  บัญชีทดลองเล่น รับเครดิต 200,000 บาท
+  
+  <br>
+  <br>
+  <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_ZB.php?game=ZB&amp;game_id=601&amp;game_name=Zimba')">&lt;&lt; บาคาร่า</button>
+  <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_ZB.php?game=ZB&amp;game_id=0&amp;game_name=Zimba')">ทางเข้าล๊อบบี้</button>
+  <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_ZB.php?game=ZB&amp;game_id=501&amp;game_name=Zimba')">บิกินี่ ไฮโล &gt;&gt;</button>
+  
+  </div>
+  
+  <div align="center" style="margin-top:60px;">
+      <img src="https://img.here999.com/games/images/EV/banner5.jpg" style="border:0px;border-radius:15px; width:100%">
+    
+  <br><br>
+  <br>
+        
+  <button class="button_test" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5452&amp;game_name=Dungeon&amp;mode=demo')">ทดลองเล่น &gt;&gt;</button>
+          
+  <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5452&amp;game_name=Dungeon')">เข้าเล่นเกมส์ &gt;&gt;</button>
+  
+  </div>
+  
+  
+  
+  <!--
+  <div align="center" style="margin-top:30px;">
+      <img src="https://img.here999.com/games/images/FG/sheet/5007.jpg" style="border:0px;border-radius:15px; width:100%" />
+    
+  <br /><br />
+  <br />
+        
+  <button class="button_test"  onclick="play_now('/games/api/launch_FG.php?game=FG&game_id=fish_mfwz&game_name=The Magicians&free=yes')">ทดลองเล่น &gt;&gt;</button>
+          
+  <button class="button_play" style="margin-left:20px;" onclick="play_now('/games/api/launch_FG.php?game=FG&game_id=fish_mfwz&game_name=The Magicians')">เข้าเล่นเกมส์ &gt;&gt;</button>
+  
+  </div>
+  
+  -->
+  
+  <div align="center" style="margin-top:30px;">
+      <img src="https://img.here999.com/games/images/FK/banner/602813.jpg" style="border:0px;border-radius:15px; width:100%">
+    
+  <br><br>
+  <br>
+       
+  <button class="button_test" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FK.php?game=FK&amp;game_id=602813&amp;game_name=Football-Strike&amp;free=yes')">ทดลองเล่น &gt;&gt;</button>
+      
+  <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FK.php?game=FK&amp;game_id=602813&amp;game_name=Football-Strike')">เข้าเล่นเกมส์ &gt;&gt;</button>
+  
+  </div>
+  
+  
+  <div align="center" style="margin-top:30px;">
+      <img src="https://img.here999.com/games/images/FK/banner/602817x.jpg" style="border:0px;border-radius:15px; width:100%">
+    
+  <br><br>
+  <br>
+        
+  <button class="button_test" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FK.php?game=FK&amp;game_id=602817&amp;game_name=Cash-Or-Crash&amp;free=yes')">ทดลองเล่น &gt;&gt;</button>
+        
+  <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FK.php?game=FK&amp;game_id=602817&amp;game_name=Cash-Or-Crash')">เข้าเล่นเกมส์ &gt;&gt;</button>
+  
+  </div>
+  
+  <div align="center" style="margin-top:30px;">
+      <img src="https://img.here999.com/games/images/FK/banner/602819.jpg" style="border:0px;border-radius:15px; width:100%">
+    
+  <br><br>
+  <br>
+        
+  <button class="button_test" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FK.php?game=FK&amp;game_id=602819&amp;game_name=น้ำเต้าปูปลา&amp;free=yes')">ทดลองเล่น &gt;&gt;</button>
+        
+  <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FK.php?game=FK&amp;game_id=602819&amp;game_name=น้ำเต้าปูปลา')">เข้าเล่นเกมส์ &gt;&gt;</button>
+  
+  </div>
+  
+  <div align="center" style="margin-top:30px;">
+      <img src="https://img.here999.com/games/images/FK/banner/602821.jpg" style="border:0px;border-radius:15px; width:100%">
+    
+  <br><br>
+  <br>
+        
+  <button class="button_test" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FK.php?game=FK&amp;game_id=602821&amp;game_name=Virtual-Baccarat&amp;free=yes')">ทดลองเล่น &gt;&gt;</button>
+        
+  <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FK.php?game=FK&amp;game_id=602821&amp;game_name=Virtual-Baccarat')">เข้าเล่นเกมส์ &gt;&gt;</button>
+  
+  </div>
+  
+  <!--
+  <div align="center" style="margin-top:30px;">
+      <img src="https://img.here999.com/games/images/EV/banner_texas.jpg" style="border:0px;border-radius:15px; width:100%" />
+    
+  <br /><br />
+  <br />
+        
+  <button class="button_test"  onclick="play_now('/games/api/launch_EV.php?game=EV&game_id=5679&game_name=TexasHoldem&mode=demo')">ทดลองเล่น &gt;&gt;</button>
+          
+  <button class="button_play" style="margin-left:20px;" onclick="play_now('/games/api/launch_EV.php?game=EV&game_id=5679&game_name=TexasHoldem')">เข้าเล่นเกมส์ &gt;&gt;</button>
+  
+  </div>
+  -->
+  
+  
+  
+  <div align="center" style="margin-top:30px;">
+      <img src="https://img.here999.com/games/images/FG/sheet/5008.jpg" style="border:0px;border-radius:15px; width:100%">
+    
+  <br><br>
+  <br>
+        
+  <button class="button_test" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FG.php?game=FG&amp;game_id=fish_lsdr&amp;game_name=Mole Rat Catcher3D&amp;free=yes')">ทดลองเล่น &gt;&gt;</button>
+          
+  <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FG.php?game=FG&amp;game_id=fish_lsdr&amp;game_name=Mole Rat Catcher3D')">เข้าเล่นเกมส์ &gt;&gt;</button>
+  
+  </div>
+  
+  
+  
+  <div align="center" style="margin-top:30px;">
+      <img src="https://img.here999.com/games/images/PG/candybonanza.jpg" style="border:0px;border-radius:15px; width:100%">
+    
+  <br><br>
+  <br>
+        
+  <button class="button_test" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG_H.php?game=PG&amp;game_id=candy-bonanza&amp;game_name=candy-bonanza&amp;frame=YES&amp;free=yes')">ทดลองเล่น &gt;&gt;</button>
+          
+  <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG_H.php?game=PG&amp;game_id=candy-bonanza&amp;game_name=candy-bonanza&amp;frame=YES')">เข้าเล่นเกมส์ &gt;&gt;</button>
+  
+  </div>
+  
+  <div align="center" style="margin-top:50px;">
+          <img src="https://img.here999.com/games/images/EV/candy2.jpg" width="100%" style="border:0px;border-radius:15px; width:100%;cursor:pointer;">       
+          <div align="center">
+          <button class="button_test" style="margin-right:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=296&amp;game_name=Candy_Dream&amp;mode=demo')">ทดลองเล่น &gt;&gt;</button>
+         
+          <button class="button_play" style="margin:30px auto 20px auto" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=296&amp;game_name=Candy_Dream')">เข้าเล่นเกมส์ &gt;&gt;</button>
+          </div>
+  </div>
+  
+  
+  <div align="center" style="margin-top:30px;">
+  
+  
+          
+      
+      <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_TH2.php?game=TH&amp;game_id=1&amp;game_name=%E0%B9%84%E0%B8%97%E0%B8%A2-11-%E0%B9%84%E0%B8%AE%E0%B9%82%E0%B8%A5')" target="_blank"><img src="https://img.here999.com/games/images/TH/banner.jpg" style="border:0px;border-radius:15px; width:100%;cursor:pointer;"></a>
+    
+  <br><br>
+  <br>
+       
+  <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_TH2.php?game=TH&amp;game_id=1&amp;game_name=%E0%B9%84%E0%B8%97%E0%B8%A2-11-%E0%B9%84%E0%B8%AE%E0%B9%82%E0%B8%A5')">เข้าเล่นเกมส์ &gt;&gt;</button>
+  
+  
+  </div>
+  
+  
+  
+  
+  
+  <div class="slot_sg" style="margin-left:0px; margin-top:30px;">
+      <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FG.php?game=FG&amp;game_id=HB&amp;game_name=Hundreds of Bull')"><img src="https://img.here999.com/games/images/FG/jpg/6003.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
+        
+        margin-right:15px;      
+        width:49%; border:0px;border-radius:15px; "></a>
+        <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_FG.php?game=FG&amp;game_id=cp&amp;game_name=Candy Party')"><img src="https://img.here999.com/games/images/FG/jpg/7021.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
+        
+        margin-right:0px;      
+        width:49%; border:0px;border-radius:15px; "></a>
+    </div>  
+  <div align="center"><button class="button_play" style="margin:30px auto 50px auto" onclick="if (!window.__cfRLUnblockHandlers) return false; self.location='/games/FG';">เกมส์อื่นๆ ค่าย FG &gt;&gt;</button></div>
+  
+  
+  <div align="center" style="margin-top:10px;">
+          <img src="https://img.here999.com/games/images/KM/pokdeng3.jpg?v1" width="100%" style="border:0px;border-radius:15px; width:100%;cursor:pointer;">       
+          <div align="center">
+          <button class="button_test" style="margin-right:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KM.php?provider=KMQM&amp;game=KM&amp;game_id=Kingmaker_Pok_Deng&amp;game_name=Pok_Deng&amp;free=yes')">ทดลองเล่น &gt;&gt;</button>
+         
+          <button class="button_play" style="margin:30px auto 20px auto" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KM.php?provider=KMQM&amp;game=KM&amp;game_id=Kingmaker_Pok_Deng&amp;game_name=Pok_Deng&amp;mode=prd')">เข้าเล่นเกมส์ &gt;&gt;</button>
+          </div>
+  </div>
+  
+  
+  </div> <!-- <div class="containner_full_width"> -->
+  
+  
+  
+  <div class="containner">
+      
+      
+  <table class="tbl">
+  <tbody><tr>
+      <td>
+  
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tbody><tr>
+          <td align="center">
+  
+  
+  
+  <div style=" padding-left:0px; text-align:center;">
+  <a href="/games/api/launch_BNG.php?game=BNG&amp;game_id=197&amp;game_name=197&amp;frame=YES&amp;mode=prd" target="_blank">        <img src="https://img.here999.com/games/images/BNG/img/197.png" style="margin-top:10px;margin-right:10px; width:23%;">
+  </a><a href="/games/api/launch_BNG.php?game=BNG&amp;game_id=203&amp;game_name=203&amp;frame=YES&amp;mode=prd" target="_blank">        <img src="https://img.here999.com/games/images/BNG/img/203.png" style="margin-top:10px;margin-right:10px; width:23%;">
+  </a><a href="/games/api/launch_BNG.php?game=BNG&amp;game_id=151&amp;game_name=151&amp;frame=YES&amp;mode=prd" target="_blank">        <img src="https://img.here999.com/games/images/BNG/img/151.png" style="margin-top:10px;margin-right:10px; width:23%;">
+  </a><a href="/games/api/launch_BNG.php?game=BNG&amp;game_id=228&amp;game_name=228&amp;frame=YES&amp;mode=prd" target="_blank">        <img src="https://img.here999.com/games/images/BNG/img/228.png" style="margin-top:10px;margin-right:10px; width:23%;">
+  </a><a href="/games/api/launch_BNG.php?game=BNG&amp;game_id=219&amp;game_name=219&amp;frame=YES&amp;mode=prd" target="_blank">        <img src="https://img.here999.com/games/images/BNG/img/219.png" style="margin-top:10px;margin-right:10px; width:23%;">
+  </a><a href="/games/api/launch_BNG.php?game=BNG&amp;game_id=223&amp;game_name=223&amp;frame=YES&amp;mode=prd" target="_blank">        <img src="https://img.here999.com/games/images/BNG/img/223.png" style="margin-top:10px;margin-right:10px; width:23%;">
+  </a><a href="/games/api/launch_BNG.php?game=BNG&amp;game_id=231&amp;game_name=231&amp;frame=YES&amp;mode=prd" target="_blank">        <img src="https://img.here999.com/games/images/BNG/img/231.png" style="margin-top:10px;margin-right:10px; width:23%;">
+  </a><a href="/games/api/launch_BNG.php?game=BNG&amp;game_id=202&amp;game_name=202&amp;frame=YES&amp;mode=prd" target="_blank">        <img src="https://img.here999.com/games/images/BNG/img/202.png" style="margin-top:10px;margin-right:10px; width:23%;">
+  </a><br>
+   <button class="button_test" style="margin-right:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; location='free?m=free#FREE_BNG';">ทดลองเล่น BNG &gt;&gt;</button>  <button class="button_play" style="margin:30px auto 50px auto" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_BNG.php?game=BNG&amp;game_id=lobby&amp;game_name=lobby&amp;frame=NO&amp;mode=prd');">เกมส์อื่นๆ ค่าย BNG &gt;&gt;</button>
+   
+  <br>
+  </div>
+  <div style=" padding-left:0px; text-align:center;">
+        <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5749&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/5749.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
+        
+        margin-right:25px;      
+        width:22%; border:0px;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5755&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/5755.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
+        
+        margin-right:25px;      
+        width:22%; border:0px;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5717&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/5717.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
+        
+        margin-right:25px;      
+        width:22%; border:0px;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5742&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/5742.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
+        
+        margin-right:25px;      
+        width:22%; border:0px;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5677&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/5677.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
+        
+        margin-right:25px;      
+        width:22%; border:0px;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5751&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/5751.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
+        
+        margin-right:25px;      
+        width:22%; border:0px;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=28&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/28.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
+        
+        margin-right:25px;      
+        width:22%; border:0px;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=736&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/736.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
+        
+        margin-right:25px;      
+        width:22%; border:0px;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5643&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/5643.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
+        
+        margin-right:25px;      
+        width:22%; border:0px;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=988&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/988.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
+        
+        margin-right:25px;      
+        width:22%; border:0px;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=296&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/296.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
+        
+        margin-right:25px;      
+        width:22%; border:0px;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5695&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/5695.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
+        
+        margin-right:25px;      
+        width:22%; border:0px;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=88&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/88.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
+        
+        margin-right:25px;      
+        width:22%; border:0px;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=979&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/979.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
+        
+        margin-right:25px;      
+        width:22%; border:0px;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=5721&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/5721.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
+        
+        margin-right:25px;      
+        width:22%; border:0px;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_EV.php?game=EV&amp;game_id=949&amp;game_name=202')"><img src="https://img.here999.com/games/images/EV/id/949.jpg?v" style="cursor:pointer;margin-top:25px;margin-left:0px; 
+        
+        margin-right:25px;      
+        width:22%; border:0px;"> </a>
+        <br>
+   <button class="button_test" style="margin-right:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; location='free?m=free#FREE_EVO';">ทดลองเล่น EVO &gt;&gt;</button>  <button class="button_play" style="margin:30px auto 50px auto" onclick="if (!window.__cfRLUnblockHandlers) return false; self.location='/games/EV';">เกมส์อื่นๆ ค่าย EVO &gt;&gt;</button>
+  <br>
+  </div>
+  
+  <div style="clear:both;"></div>
+          
+        <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=flirting-scholar&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/flirting-scholar.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=ninja-vs-samurai&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/ninja-vs-samurai.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=muay-thai-champion&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/muay-thai-champion.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=leprechaun-riches&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/leprechaun-riches.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=bikini-paradise&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/bikini-paradise.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=candy-burst&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/candy-burst.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=dragon-hatch&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/dragon-hatch.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=dragon-legend&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/dragon-legend.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=jewels-prosper&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/jewels-prosper.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=queen-bounty&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/queen-bounty.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=sct-cleopatra&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/sct-cleopatra.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_PG.php?game=PG&amp;game_id=fortune-mouse&amp;game_name=none');"> <img src="https://img.here999.com/games/images/PG/index/fortune-mouse.jpg?1" style="cursor:pointer;margin-top:10px;margin-right:10px; border:0px; width:23%;"> </a>
+        
+  <br><br>
+   <button class="button_test" onclick="if (!window.__cfRLUnblockHandlers) return false; location='free?m=free#FREE_PG';">ทดลองเล่น PG &gt;&gt;</button>
+          
+  <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/pg');">เกมส์อื่นๆ ค่าย PG &gt;&gt;</button><br>        </td>
+        </tr><tr><td>&nbsp;</td></tr>
+  
+  
+        <tr>
+          <td align="center">
+          <img src="https://img.here999.com/games/images/DRG/sheet2/1004.jpg" width="92%" style="border:0px; cursor:pointer;">
+          <br>
+  <br>
+  
+          <button class="button_test" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_DRG.php?game=DR&amp;game_id=1004&amp;game_name=DinoHunter&amp;free=yes')">ทดลองเล่น &gt;&gt;</button>
+          
+          <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_DRG.php?game=DR&amp;game_id=1004&amp;game_name=DinoHunter')">เข้าเล่นเกมส์ &gt;&gt;</button>
+  
+          </td>
+        </tr>
         
         
-      <tr>
-        <td  valign="top" style="padding-left:15px">
-        
-    <div class="slot_sg" align="left">
-            <a href='/games/api/launch_sexy_km.php?game=SX&game_id=KM-TABLE-009&game_name=ไทย-11-ไฮโล' target='_blank'>
-            <img src='https://img.here999.com/games/images/KM/sheet/KM-TABLE-009.jpg?v1.4' width="80%" style="margin-right:10px; margin-bottom:15px;">        </a>
-            
-    
-       <br /><span style="color:#fff;" class="fsz_rem10"><strong>[Exclusive-Game]</strong> ไทยไฮโล v3.0 ตัวใหม่ล่าสุด!! มีเฉพาะบนเอเชียเท่านั้น <font color="#FF0000">"โบนัสฟรีเยอะ"</font> แจกหนักกว่าเดิม แจ็คพ๊อตแจกทุกรอบ</span></div>     </td>
-      </tr>
-    </table> 
-    
-    
-    </td></tr>
-    -->
-    
-    
-        
+        <tr>
+          <td align="center">&nbsp;</td>
+        </tr>
+      
+     
+      
+      
+      </tbody></table>
+      
+      
+      
+      
+      
+      
+      </td>
+    </tr>
     <tr>
-    <td align="left">
-    
-    <div align="center" style="margin-top:30px;">
-        <img src="https://img.here999.com/games/images/ZB/banner.jpg?v1" style="border:0px;border-radius:15px; width:100%" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_ZB.php?game=ZB&amp;game_id=503&amp;game_name=Zimba')">
-        
-    <br><br>
-    <br>
-          
-    <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_ZB.php?game=ZB&amp;game_id=503&amp;game_name=Zimba')">เข้าเล่นเกมส์ &gt;&gt;</button>
-    
-    </div>
-    
-    
-    
-          <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now(&quot;/games/api/launch_EA.php?game=EA&amp;game_id=2&amp;game_name=N2-Live&quot;)"><img src="https://img.here999.com/games/images/live/EA.jpg?x" style="margin-top:15px;margin-right:15px; border:0px; width:46%; cursor:pointer;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now(&quot;/games/Casino-SA&quot;)"><img src="https://img.here999.com/games/images/live/SA.jpg?x" style="margin-top:15px;margin-right:15px; border:0px; width:46%; cursor:pointer;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now(&quot;/games/Casino-SEXY&quot;)"><img src="https://img.here999.com/games/images/live/SX.jpg?x" style="margin-top:15px;margin-right:15px; border:0px; width:46%; cursor:pointer;"> </a>
-                <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now(&quot;/games/api/launch_wm.php?game=WM&amp;game_id=1&amp;game_name=WM-Casino&quot;)"><img src="https://img.here999.com/games/images/live/WM.jpg?x" style="margin-top:15px;margin-right:15px; border:0px; width:46%; cursor:pointer;"> </a>
-                <a class="popup-modal" href="#DG-modal"><img src="https://img.here999.com/games/images/live/DG.jpg?x" style="margin-top:15px;margin-right:15px; border:0px; width:46%; cursor:pointer;"> </a>
-          
-    </td>
+      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tbody><tr>
+          <td align="center" width="50%"><img src="https://img.here999.com/games/images/GG/banner.jpg" width="90%" style="border:0px;"></td>
+          <td><img src="https://img.here999.com/games/images/GG/banner2.jpg" width="85%" style="border:0px;"><br>
+            <br>
+  <img src="https://img.here999.com/games/images/GG/banner3.jpg" style="border:0px;" width="85%"><br>
+  <br>
+  <br>
+  <div>
+  <button class="button_play" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_gg.php?game=GG&amp;game_id=110&amp;game_name=none');">เข้าเล่นเกมส์ &gt;&gt;</button><br>
+  <br>
+  **โหมดลองเล่น อยู่ข้างในเกมส์ จะมีปุ่ม ทดลองใช้ฟรี อยู่ในล๊อบบี้เกมส์**</div></td>
+        </tr>
+      </tbody></table></td>
     </tr>
     
+  <!--
+    <tr>
+      <td height="" align="center" valign="bottom"  style="padding-left:10px;padding-right:20px;"><div class="line1"></div></td>
+      </tr><tr><td>
+  
+  <table class="tbl">
     
+    
+    <tr>
+      <td  valign="top" style="padding-left:15px">
       
-      <tr>
-        <td height="" align="center" valign="bottom" style="padding-left:10px;padding-right:20px;"><div class="line1"></div></td>
-        </tr>
-    <tr><td style="padding-left:30px;">
-            <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=BonusMania&amp;game_name=BonusMania')">
-            <img src="https://img.here999.com/games/images/KA/new/jpg/BonusMania.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
-    
-            <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=CaiYuanGuangJin&amp;game_name=CaiYuanGuangJin')">
-            <img src="https://img.here999.com/games/images/KA/new/jpg/CaiYuanGuangJin.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
-    
-            <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=ChineseValentinesDay&amp;game_name=ChineseValentinesDay')">
-            <img src="https://img.here999.com/games/images/KA/new/jpg/ChineseValentinesDay.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
-    
-            <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=Cocorico&amp;game_name=Cocorico')">
-            <img src="https://img.here999.com/games/images/KA/new/jpg/Cocorico.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
-    
-            <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=GoldenBall&amp;game_name=GoldenBall')">
-            <img src="https://img.here999.com/games/images/KA/new/jpg/GoldenBall.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
-    
-            <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=Luck88&amp;game_name=Luck88')">
-            <img src="https://img.here999.com/games/images/KA/new/jpg/Luck88.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
-    
-            <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=MagicApprentice&amp;game_name=MagicApprentice')">
-            <img src="https://img.here999.com/games/images/KA/new/jpg/MagicApprentice.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
-    
-            <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=MedalWinnerMegaways&amp;game_name=MedalWinnerMegaways')">
-            <img src="https://img.here999.com/games/images/KA/new/jpg/MedalWinnerMegaways.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
-    
-            <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=Pinata&amp;game_name=Pinata')">
-            <img src="https://img.here999.com/games/images/KA/new/jpg/Pinata.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
-    
-            <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=QuickPlayCandy&amp;game_name=QuickPlayCandy')">
-            <img src="https://img.here999.com/games/images/KA/new/jpg/QuickPlayCandy.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
-    
-            <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=SuperShot&amp;game_name=SuperShot')">
-            <img src="https://img.here999.com/games/images/KA/new/jpg/SuperShot.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
-    
-            <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=Treasurebowl&amp;game_name=Treasurebowl')">
-            <img src="https://img.here999.com/games/images/KA/new/jpg/Treasurebowl.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
-    
-     
-    </td></tr>
-    
-      <tr>
-        <td height="" align="center" valign="bottom" style="padding-left:10px;padding-right:20px;"><div class="line1"></div></td>
-        </tr><tr><td>
-    
-    <table class="tbl">
-        
-        
-      <tbody><tr>
-        <td valign="top" style="padding-left:15px">
-        
-    <div class="slot_sg" align="left">
-              <span style="color:#fff;" class="fsz_rem10"><strong>[3D-Asia999]</strong> เล่นห้องเดียวกันได้ + เสียงไทย!!</span><br><br>
-    
-    
-    <a href="/games/api/launch_KM.php?provider=KMQM&amp;game=KM&amp;game_id=Kingmaker_Pok_Deng&amp;game_name=Pok_Deng&amp;mode=prd" target="_blank">
-            <img src="https://img.here999.com/games/images/KM/pokdeng2.jpg?v1" width="98%" style="margin-right:10px; margin-bottom:10px; border:0px;">        </a>
-            
-            
-     <a href="/games/api/launch_TH2.php?game=TH&amp;game_id=1&amp;game_name=%E0%B9%84%E0%B8%97%E0%B8%A2-11-%E0%B9%84%E0%B8%AE%E0%B9%82%E0%B8%A5" target="_blank">
-            <img src="https://img.here999.com/games/images/KM/sheet/TH.jpg?v1.5" width="98%" style="margin-right:10px; margin-bottom:10px; border:0px;">        </a>
-            <a href="/games/api/launch_KM.php?provider=KMQM&amp;game=KM&amp;game_id=Thai_Hi_Lo_2&amp;game_name=ไทย-11-ไฮโล" target="_blank">
-            <img src="https://img.here999.com/games/images/KM/sheet/Thai_Hi_Lo_2.jpg?v1.5" width="98%" style="margin-right:10px; margin-bottom:15px; border:0px;">        </a>
-            <!--
-              <div align="center">
-            <button class="button_test" style="margin-right:20px;"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=Thai_Hi_Lo_2&game_name=Thai_Hi_Lo_2&free=yes')">ทดลองเล่น &gt;&gt;</button>
-           
-            <button class="button_play" style="margin:30px auto 20px auto"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=Thai_Hi_Lo_2&game_name=Thai_Hi_Lo_2&mode=prd')">เข้าเล่นเกมส์ &gt;&gt;</button>
-            </div>
-            
-            -->
-    
-            <a href="/games/api/launch_KM.php?provider=KMQM&amp;game=KM&amp;game_id=sicbo&amp;game_name=Sicbo-ไฮโล" target="_blank">
-            <img src="https://img.here999.com/games/images/KM/sheet/sicbo.jpg?v1.5" width="98%" style="margin-right:10px; margin-bottom:15px; border:0px;">        </a>
-            <!--
-              <div align="center">
-            <button class="button_test" style="margin-right:20px;"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=sicbo&game_name=sicbo&free=yes')">ทดลองเล่น &gt;&gt;</button>
-           
-            <button class="button_play" style="margin:30px auto 20px auto"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=sicbo&game_name=sicbo&mode=prd')">เข้าเล่นเกมส์ &gt;&gt;</button>
-            </div>
-            
-            -->
-    
-            <a href="/games/api/launch_KM.php?provider=KMQM&amp;game=KM&amp;game_id=Dragon_Tiger_2&amp;game_name=เสือมังกร" target="_blank">
-            <img src="https://img.here999.com/games/images/KM/sheet/Dragon_Tiger_2.jpg?v1.5" width="98%" style="margin-right:10px; margin-bottom:15px; border:0px;">        </a>
-            <!--
-              <div align="center">
-            <button class="button_test" style="margin-right:20px;"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=Dragon_Tiger_2&game_name=Dragon_Tiger_2&free=yes')">ทดลองเล่น &gt;&gt;</button>
-           
-            <button class="button_play" style="margin:30px auto 20px auto"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=Dragon_Tiger_2&game_name=Dragon_Tiger_2&mode=prd')">เข้าเล่นเกมส์ &gt;&gt;</button>
-            </div>
-            
-            -->
-    
-            <a href="/games/api/launch_KM.php?provider=KMQM&amp;game=KM&amp;game_id=Thai_Fish_Prawn_Crab&amp;game_name=น้ำเต้าปูปลา" target="_blank">
-            <img src="https://img.here999.com/games/images/KM/sheet/Thai_Fish_Prawn_Crab.jpg?v1.5" width="98%" style="margin-right:10px; margin-bottom:15px; border:0px;">        </a>
-            <!--
-              <div align="center">
-            <button class="button_test" style="margin-right:20px;"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=Thai_Fish_Prawn_Crab&game_name=Thai_Fish_Prawn_Crab&free=yes')">ทดลองเล่น &gt;&gt;</button>
-           
-            <button class="button_play" style="margin:30px auto 20px auto"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=Thai_Fish_Prawn_Crab&game_name=Thai_Fish_Prawn_Crab&mode=prd')">เข้าเล่นเกมส์ &gt;&gt;</button>
-            </div>
-            
-            -->
-    
-            <a href="/games/api/launch_KM.php?provider=KMQM&amp;game=KM&amp;game_id=Fan_Tan_2&amp;game_name=กำถั่ว" target="_blank">
-            <img src="https://img.here999.com/games/images/KM/sheet/Fan_Tan_2.jpg?v1.5" width="98%" style="margin-right:10px; margin-bottom:15px; border:0px;">        </a>
-            <!--
-              <div align="center">
-            <button class="button_test" style="margin-right:20px;"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=Fan_Tan_2&game_name=Fan_Tan_2&free=yes')">ทดลองเล่น &gt;&gt;</button>
-           
-            <button class="button_play" style="margin:30px auto 20px auto"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=Fan_Tan_2&game_name=Fan_Tan_2&mode=prd')">เข้าเล่นเกมส์ &gt;&gt;</button>
-            </div>
-            
-            -->
-    
-    
-    
-    </div>     </td>
-      </tr>
-    </tbody></table> 
-    
-    
-    </td></tr>
-      <tr>
-        <td valign="top" style="padding-left:15px;">
-        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        
-    
-      
-      
-      
-    
-       <tbody><tr>
-        <td class="fsz_rem12">
-        
-        <div class="line2 " style="margin-right:20px;"></div>
-        
-           <span style="color:#fff;" class="fsz_rem10">[N2-RNG] เน็ตไม่แรง แทงดีลเลอร์สดแล้วกระตุก ก็แนะนำตัวนี้เลย เล่นง่าย จบรอบไว</span><br><br>
-             
+  <div class="slot_sg" align="left">
+          <a href='/games/api/launch_sexy_km.php?game=SX&game_id=KM-TABLE-009&game_name=ไทย-11-ไฮโล' target='_blank'>
+          <img src='https://img.here999.com/games/images/KM/sheet/KM-TABLE-009.jpg?v1.4' width="80%" style="margin-right:10px; margin-bottom:15px;">        </a>
           
-          <a href="/games/api/launch_EA.php?game=EA&amp;game_id=2&amp;game_name=N2-Live&amp;table=91092" target="_blank">
-          <img src="https://img.here999.com/games/images/EA/baccarat.jpg" style="margin-top:10px;margin-right:10px;" width="23%">      </a>
+  
+     <br /><span style="color:#fff;" class="fsz_rem10"><strong>[Exclusive-Game]</strong> ไทยไฮโล v3.0 ตัวใหม่ล่าสุด!! มีเฉพาะบนเอเชียเท่านั้น <font color="#FF0000">"โบนัสฟรีเยอะ"</font> แจกหนักกว่าเดิม แจ็คพ๊อตแจกทุกรอบ</span></div>     </td>
+    </tr>
+  </table> 
+  
+  
+  </td></tr>
+  -->
+  
+  
+      
+  <tr>
+  <td align="left">
+  
+  <div align="center" style="margin-top:30px;">
+      <img src="https://img.here999.com/games/images/ZB/banner.jpg?v1" style="border:0px;border-radius:15px; width:100%" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_ZB.php?game=ZB&amp;game_id=503&amp;game_name=Zimba')">
+    
+  <br><br>
+  <br>
+        
+  <button class="button_play" style="margin-left:20px;" onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_ZB.php?game=ZB&amp;game_id=503&amp;game_name=Zimba')">เข้าเล่นเกมส์ &gt;&gt;</button>
+  
+  </div>
+  
+  
+  
+        <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now(&quot;/games/api/launch_EA.php?game=EA&amp;game_id=2&amp;game_name=N2-Live&quot;)"><img src="https://img.here999.com/games/images/live/EA.jpg?x" style="margin-top:15px;margin-right:15px; border:0px; width:46%; cursor:pointer;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now(&quot;/games/Casino-SA&quot;)"><img src="https://img.here999.com/games/images/live/SA.jpg?x" style="margin-top:15px;margin-right:15px; border:0px; width:46%; cursor:pointer;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now(&quot;/games/Casino-SEXY&quot;)"><img src="https://img.here999.com/games/images/live/SX.jpg?x" style="margin-top:15px;margin-right:15px; border:0px; width:46%; cursor:pointer;"> </a>
+              <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now(&quot;/games/api/launch_wm.php?game=WM&amp;game_id=1&amp;game_name=WM-Casino&quot;)"><img src="https://img.here999.com/games/images/live/WM.jpg?x" style="margin-top:15px;margin-right:15px; border:0px; width:46%; cursor:pointer;"> </a>
+              <a class="popup-modal" href="#DG-modal"><img src="https://img.here999.com/games/images/live/DG.jpg?x" style="margin-top:15px;margin-right:15px; border:0px; width:46%; cursor:pointer;"> </a>
+        
+  </td>
+  </tr>
+  
+  
+    
+    <tr>
+      <td height="" align="center" valign="bottom" style="padding-left:10px;padding-right:20px;"><div class="line1"></div></td>
+      </tr>
+  <tr><td style="padding-left:30px;">
+          <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=BonusMania&amp;game_name=BonusMania')">
+          <img src="https://img.here999.com/games/images/KA/new/jpg/BonusMania.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
+  
+          <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=CaiYuanGuangJin&amp;game_name=CaiYuanGuangJin')">
+          <img src="https://img.here999.com/games/images/KA/new/jpg/CaiYuanGuangJin.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
+  
+          <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=ChineseValentinesDay&amp;game_name=ChineseValentinesDay')">
+          <img src="https://img.here999.com/games/images/KA/new/jpg/ChineseValentinesDay.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
+  
+          <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=Cocorico&amp;game_name=Cocorico')">
+          <img src="https://img.here999.com/games/images/KA/new/jpg/Cocorico.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
+  
+          <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=GoldenBall&amp;game_name=GoldenBall')">
+          <img src="https://img.here999.com/games/images/KA/new/jpg/GoldenBall.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
+  
+          <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=Luck88&amp;game_name=Luck88')">
+          <img src="https://img.here999.com/games/images/KA/new/jpg/Luck88.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
+  
+          <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=MagicApprentice&amp;game_name=MagicApprentice')">
+          <img src="https://img.here999.com/games/images/KA/new/jpg/MagicApprentice.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
+  
+          <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=MedalWinnerMegaways&amp;game_name=MedalWinnerMegaways')">
+          <img src="https://img.here999.com/games/images/KA/new/jpg/MedalWinnerMegaways.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
+  
+          <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=Pinata&amp;game_name=Pinata')">
+          <img src="https://img.here999.com/games/images/KA/new/jpg/Pinata.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
+  
+          <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=QuickPlayCandy&amp;game_name=QuickPlayCandy')">
+          <img src="https://img.here999.com/games/images/KA/new/jpg/QuickPlayCandy.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
+  
+          <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=SuperShot&amp;game_name=SuperShot')">
+          <img src="https://img.here999.com/games/images/KA/new/jpg/SuperShot.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
+  
+          <a onclick="if (!window.__cfRLUnblockHandlers) return false; play_now('/games/api/launch_KA.php?game=KA&amp;game_id=Treasurebowl&amp;game_name=Treasurebowl')">
+          <img src="https://img.here999.com/games/images/KA/new/jpg/Treasurebowl.jpg?v1.3" style="cursor:pointer;margin-top:20px;margin-right:20px; border:0px; width:22%;">        </a>
+  
+   
+  </td></tr>
+  
+    <tr>
+      <td height="" align="center" valign="bottom" style="padding-left:10px;padding-right:20px;"><div class="line1"></div></td>
+      </tr><tr><td>
+  
+  <table class="tbl">
+    
+    
+    <tbody><tr>
+      <td valign="top" style="padding-left:15px">
+      
+  <div class="slot_sg" align="left">
+            <span style="color:#fff;" class="fsz_rem10"><strong>[3D-Asia999]</strong> เล่นห้องเดียวกันได้ + เสียงไทย!!</span><br><br>
+  
+  
+  <a href="/games/api/launch_KM.php?provider=KMQM&amp;game=KM&amp;game_id=Kingmaker_Pok_Deng&amp;game_name=Pok_Deng&amp;mode=prd" target="_blank">
+          <img src="https://img.here999.com/games/images/KM/pokdeng2.jpg?v1" width="98%" style="margin-right:10px; margin-bottom:10px; border:0px;">        </a>
+          
+          
+   <a href="/games/api/launch_TH2.php?game=TH&amp;game_id=1&amp;game_name=%E0%B9%84%E0%B8%97%E0%B8%A2-11-%E0%B9%84%E0%B8%AE%E0%B9%82%E0%B8%A5" target="_blank">
+          <img src="https://img.here999.com/games/images/KM/sheet/TH.jpg?v1.5" width="98%" style="margin-right:10px; margin-bottom:10px; border:0px;">        </a>
+          <a href="/games/api/launch_KM.php?provider=KMQM&amp;game=KM&amp;game_id=Thai_Hi_Lo_2&amp;game_name=ไทย-11-ไฮโล" target="_blank">
+          <img src="https://img.here999.com/games/images/KM/sheet/Thai_Hi_Lo_2.jpg?v1.5" width="98%" style="margin-right:10px; margin-bottom:15px; border:0px;">        </a>
+          <!--
+            <div align="center">
+          <button class="button_test" style="margin-right:20px;"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=Thai_Hi_Lo_2&game_name=Thai_Hi_Lo_2&free=yes')">ทดลองเล่น &gt;&gt;</button>
          
-              <a href="/games/api/launch_EA.php?game=EA&amp;game_id=2&amp;game_name=N2-Live&amp;table=51002" target="_blank">
-          <img src="https://img.here999.com/games/images/EA/roulette2.jpg" style="margin-top:10px;margin-right:10px;" width="23%">      </a>
-    
-                 
-            <a href="/games/api/launch_EA.php?game=EA&amp;game_id=2&amp;game_name=N2-Live&amp;table=110001" target="_blank">
-          <img src="https://img.here999.com/games/images/EA/blackjack.jpg" style="margin-top:10px;margin-right:10px;" width="23%">      </a>
+          <button class="button_play" style="margin:30px auto 20px auto"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=Thai_Hi_Lo_2&game_name=Thai_Hi_Lo_2&mode=prd')">เข้าเล่นเกมส์ &gt;&gt;</button>
+          </div>
           
-          <a href="/games/api/launch_EA.php?game=EA&amp;game_id=2&amp;game_name=N2-Live&amp;table=61001" target="_blank">
-          <img src="https://img.here999.com/games/images/EA/sicbo2-1.jpg" style="margin-top:10px;margin-right:10px;" width="23%">      </a>    </td></tr>
+          -->
+  
+          <a href="/games/api/launch_KM.php?provider=KMQM&amp;game=KM&amp;game_id=sicbo&amp;game_name=Sicbo-ไฮโล" target="_blank">
+          <img src="https://img.here999.com/games/images/KM/sheet/sicbo.jpg?v1.5" width="98%" style="margin-right:10px; margin-bottom:15px; border:0px;">        </a>
+          <!--
+            <div align="center">
+          <button class="button_test" style="margin-right:20px;"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=sicbo&game_name=sicbo&free=yes')">ทดลองเล่น &gt;&gt;</button>
+         
+          <button class="button_play" style="margin:30px auto 20px auto"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=sicbo&game_name=sicbo&mode=prd')">เข้าเล่นเกมส์ &gt;&gt;</button>
+          </div>
           
-          <tr>
-        <td class="fsz_rem12" style=" padding-right:20px;"><div class="line1"></div><a name="spacecat"></a></td>
-      </tr>
-     
-       <tr>
-        <td class="fsz_rem12">
-        
-        <a href="/games/api/launch_gg.php?game=GG&amp;game_id=110&amp;game_name=none" target="_blank">
-            <img src="https://img.here999.com/games/images/GG/110.jpg" style="margin-bottom:10px;margin-right:10px; width:23%;">        </a>
-            <!--
-            <a href='/games/api/launch_MJ.php?game=MJ&game_id=TapBet&frame' target='_blank'>
-            <img src='https://img.here999.com/games/images/MJ/sheet/TapBet.jpg' style="margin-bottom:10px;margin-right:10px; width:23%;">
-            </a>
-            -->
-    
-    
-            <a href="/games/api/launch_KA.php?game=KA&amp;game_id=KingOctopus&amp;game_name=KingOctopus" target="_blank">
-            <img src="https://img.here999.com/games/images/KA/KingOctopus.jpg?v1.3" width="23%" style="margin-right:10px;margin-bottom:10px;">        </a>
-    
-            <a href="/games/api/launch_KA.php?game=KA&amp;game_id=SnowWhite&amp;game_name=SnowWhite" target="_blank">
-            <img src="https://img.here999.com/games/images/KA/SnowWhite.jpg?v1.3" width="23%" style="margin-right:10px;margin-bottom:10px;">        </a>
-    
-            <a href="/games/api/launch_KA.php?game=KA&amp;game_id=Millionaires&amp;game_name=Millionaires" target="_blank">
-            <img src="https://img.here999.com/games/images/KA/Millionaires.jpg?v1.3" width="23%" style="margin-right:10px;margin-bottom:10px;">        </a>
-    
-     
-    
-    
-            <a href="/games/api/launch_CG.php?game=CG&amp;game_id=Rich" target="_blank">
-            <img src="https://img.here999.com/games/images/CG/sheet3/Rich.jpg" width="23%" style="margin-right:10px;margin-bottom:10px;">        </a>
-    
-    
-            <a href="/games/api/launch_CG.php?game=CG&amp;game_id=AliceAdvEX" target="_blank">
-            <img src="https://img.here999.com/games/images/CG/sheet3/AliceEX.jpg" width="23%" style="margin-right:10px;margin-bottom:10px;">        </a>
-    
-    
-            <a href="/games/api/launch_CG.php?game=CG&amp;game_id=NinjaEX" target="_blank">
-            <img src="https://img.here999.com/games/images/CG/sheet3/NinjaEX.jpg" width="23%" style="margin-right:10px;margin-bottom:10px;">        </a>
-    
-    
-            <a href="/games/api/launch_CG.php?game=CG&amp;game_id=OdinEX" target="_blank">
-            <img src="https://img.here999.com/games/images/CG/sheet3/OdinEX.jpg" width="23%" style="margin-right:10px;margin-bottom:10px;">        </a>
-    
+          -->
+  
+          <a href="/games/api/launch_KM.php?provider=KMQM&amp;game=KM&amp;game_id=Dragon_Tiger_2&amp;game_name=เสือมังกร" target="_blank">
+          <img src="https://img.here999.com/games/images/KM/sheet/Dragon_Tiger_2.jpg?v1.5" width="98%" style="margin-right:10px; margin-bottom:15px; border:0px;">        </a>
+          <!--
+            <div align="center">
+          <button class="button_test" style="margin-right:20px;"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=Dragon_Tiger_2&game_name=Dragon_Tiger_2&free=yes')">ทดลองเล่น &gt;&gt;</button>
+         
+          <button class="button_play" style="margin:30px auto 20px auto"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=Dragon_Tiger_2&game_name=Dragon_Tiger_2&mode=prd')">เข้าเล่นเกมส์ &gt;&gt;</button>
+          </div>
           
+          -->
+  
+          <a href="/games/api/launch_KM.php?provider=KMQM&amp;game=KM&amp;game_id=Thai_Fish_Prawn_Crab&amp;game_name=น้ำเต้าปูปลา" target="_blank">
+          <img src="https://img.here999.com/games/images/KM/sheet/Thai_Fish_Prawn_Crab.jpg?v1.5" width="98%" style="margin-right:10px; margin-bottom:15px; border:0px;">        </a>
+          <!--
+            <div align="center">
+          <button class="button_test" style="margin-right:20px;"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=Thai_Fish_Prawn_Crab&game_name=Thai_Fish_Prawn_Crab&free=yes')">ทดลองเล่น &gt;&gt;</button>
+         
+          <button class="button_play" style="margin:30px auto 20px auto"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=Thai_Fish_Prawn_Crab&game_name=Thai_Fish_Prawn_Crab&mode=prd')">เข้าเล่นเกมส์ &gt;&gt;</button>
+          </div>
+          
+          -->
+  
+          <a href="/games/api/launch_KM.php?provider=KMQM&amp;game=KM&amp;game_id=Fan_Tan_2&amp;game_name=กำถั่ว" target="_blank">
+          <img src="https://img.here999.com/games/images/KM/sheet/Fan_Tan_2.jpg?v1.5" width="98%" style="margin-right:10px; margin-bottom:15px; border:0px;">        </a>
+          <!--
+            <div align="center">
+          <button class="button_test" style="margin-right:20px;"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=Fan_Tan_2&game_name=Fan_Tan_2&free=yes')">ทดลองเล่น &gt;&gt;</button>
+         
+          <button class="button_play" style="margin:30px auto 20px auto"  onclick="play_now('/games/api/launch_KM.php?provider=KMQM&game=KM&game_id=Fan_Tan_2&game_name=Fan_Tan_2&mode=prd')">เข้าเล่นเกมส์ &gt;&gt;</button>
+          </div>
+          
+          -->
+  
+  
+  
+  </div>     </td>
+    </tr>
+  </tbody></table> 
+  
+  
+  </td></tr>
+    <tr>
+      <td valign="top" style="padding-left:15px;">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      
+  
+    
+    
+    
+  
+     <tbody><tr>
+      <td class="fsz_rem12">
+      
+      <div class="line2 " style="margin-right:20px;"></div>
+      
+         <span style="color:#fff;" class="fsz_rem10">[N2-RNG] เน็ตไม่แรง แทงดีลเลอร์สดแล้วกระตุก ก็แนะนำตัวนี้เลย เล่นง่าย จบรอบไว</span><br><br>
+           
         
-        
+        <a href="/games/api/launch_EA.php?game=EA&amp;game_id=2&amp;game_name=N2-Live&amp;table=91092" target="_blank">
+        <img src="https://img.here999.com/games/images/EA/baccarat.jpg" style="margin-top:10px;margin-right:10px;" width="23%">      </a>
        
-          <a href="/games/api/launch_PG.php?game=PG&amp;game_id=dreams-of-macau&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/dreams-of-macau.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=santas-gift-rush&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/santas-gift-rush.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=legend-of-hou-yi&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/legend-of-hou-yi.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=hood-wolf&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/hood-wolf.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=ganesha-gold&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/ganesha-gold.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=double-fortune&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/double-fortune.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=cai-shen-wins&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/cai-shen-wins.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=captains-bounty&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/captains-bounty.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=hip-hop-panda&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/hip-hop-panda.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=reel-love&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/reel-love.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=gem-saviour-sword&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/gem-saviour-sword.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=three-monkeys&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/three-monkeys.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=the-great-icescape&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/the-great-icescape.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=win-win-won&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/win-win-won.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=journey-to-the-wealth&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/journey-to-the-wealth.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=jungle-delight&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/jungle-delight.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=tomb-of-treasure&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/tomb-of-treasure.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=gem-saviour&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/gem-saviour.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=honey-trap-of-diao-chan&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/honey-trap-of-diao-chan.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=mahjong-ways&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/mahjong-ways.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=summon-and-conquer&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/summon-and-conquer.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=tiki-go&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/tiki-go.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=wild-inferno&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/wild-inferno.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-                <a href="/games/api/launch_PG.php?game=PG&amp;game_id=dragon-tiger-luck&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/dragon-tiger-luck.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
-              
-      </td></tr>
-    </tbody></table>
-    
-    
-    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-            <tbody><tr>
-              <td style="padding-left:30px;">[ <a href="slot_premium.php?m=slot_sa" class="fsz_rem12"><u>เกมส์ Slot อื่นๆ ทั้งหมด</u></a> ]&nbsp;&nbsp;
-    [ <a href="slot_best.php?m=slot_best" class="fsz_rem12"><u>เกมส์แนะนำ ชนะง่าย วงเงินต่ำ</u></a> ]</td>
-            </tr>
-            
-            
-      </tbody></table>
-      </td></tr>
-      </tbody></table>
-          
-    
-    </div>
-    <!--
-    <h3 align="right" style="margin:20px 10px 20px 0px; color:#fff">สมาชิกออนไลน์ขณะนี้ : 12,751 คน</h3>
-    --><br>
-    <br>
-    
-    
-    
-    
-    <!--  MODAL POPUP -->
-    
-    <div id="DG-modal" class="white-popup-block mfp-hide" style="width:70%; max-width:800px;  background-color:#000; margin:auto auto; padding:20px; border:#FFFFFF 1px solid; border-radius:8px;">
-            <div style="font-size:3.0rem; margin-bottom:5px; color:#FFCC00; font-weight:bold;">DG-Asia999 <span style="font-size:14px; font-weight:normal; float:right; color:#FFFFFF">Engine by Asia999.com</span></div>
-            <div>
-                กรุณาเลือก Level ของคุณ<br><br>
-    
-                <a target="_blank" href="/games/Casino-DG1" class="btn_wallet" onclick="if (!window.__cfRLUnblockHandlers) return false; $.magnificPopup.close();" style=" margin:35px 10px; ">
-                A. มือใหม่ <span style="font-size:1.2rem">[10-2500]</span></a>
-                <br>
-                <a target="_blank" href="/games/Casino-DG2" class="btn_wallet" onclick="if (!window.__cfRLUnblockHandlers) return false; $.magnificPopup.close();" style=" margin:35px 10px; ">
-                B. มือสมัครเล่น <span style="font-size:1.2rem">[50-10000]</span></a><br>
-                <a target="_blank" href="/games/Casino-DG3" class="btn_wallet" onclick="if (!window.__cfRLUnblockHandlers) return false; $.magnificPopup.close();" style=" margin:35px 10px; ">
-                C. มืออาชีพ <span style="font-size:1.2rem">[100-50000]</span></a><br>
-            </div>
-            <div align="right" style="margin:30px;"><a class="popup-modal-dismiss" href="#">ปิดหน้านี้ [x]</a></div>
-    </div>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
-    <div class="footer">
-    <nav>
-    
-    <div id="logo"><img src="images/logo.png" width="200"></div>
-    
-    <ul id="gameHallTabs">
-    
-    <li><a class="icon-hall" href="/games/sport_v1.php?m=sport" target="_parent"><img src="images/icon_football3.png" width="32" style="margin-bottom:4px;"><br>ฟุตบอล</a></li>
-    
-    
-    <li class="select"><a class="icon-live" href="/games/index.php?m=casino"><img src="images/icon-live.svg"><br>คาสิโนสด</a></li>   
-    <li><a class="icon-hall" href="/games/index.php?m=fish#fish"><img src="images/icon-hall.svg"><br>เกมส์ยิงปลา</a></li>
-    <li><a class="icon-slot" href="/games/index.php?m=slot_sa#slot_sa"><img src="images/icon-slot.svg"><br>เกมส์สล๊อต</a></li>
-    <li><a target="_parent" class="icon-slot" href="/games/slot_best.php?m=slot_best"><img src="images/index/crown4.png" width="45" style="margin-bottom:9px;"><br>เกมส์แนะนำ</a></li>
-    
-    <!--
-    <li  ><a class="icon-rngtable" href="/bet_main.php" target="_blank"><img src="images/icon-rngtable.svg"  /><br />หวยออนไลน์</a></li>
-    -->
-    <li style="padding-top:10px;"><a target="_parent" class="icon-slot" href="/games/free?m=free">FUN MODE <br>ทดลองเล่น</a></li>
-    
-    </ul>        
-    
-    </nav>
-    </div>
-    <script type="text/javascript">
-    function process(data) {
-        // output your data
-        if(data['success']==1){
-        //console.log(data);
-        $('#user_balance').text(data['balance']);
-        }else{
-            $('#user_balance').text('Reload... ');
-            console.log('get_balance_timeout');
-            window.location.reload();
-        }
-    }
-    var updateBalance = function() {
-        $.ajax({
-            type: "POST",
-            url: "https://balance.asia999.com/balance/getBalance_curl.php?1413942" + $.now(),
-            dataType: 'json',
-           data: {"token":"b0M1SkVWRi9uMXlKQXlOeUJIeXFRQT09","expire":1638732342,"auth":"595a4df3ff00b79635012de700e8b7c8a1035c1a274a98a2f0da875b318abfda"},
-            success: process
-        });
-    }
-    $( document ).ready(function() {
-    var initx = updateBalance();
-    var refInterval = window.setInterval('updateBalance()', 30000); // 30 seconds
-    });
-    </script>
-    <script type="text/javascript">
-    function LOTTO(){
-        alert("ขออภัยค่ะ คุณต้องมียอดเงินคงเหลือมากกว่า 500 บาท ถึงเข้าเล่นหวยออนไลน์ได้ กรุณาเติมเครดิตเพิ่มค่ะ");
-        return false;
-    }
-    </script>
-    <!-- Magnific Popup core CSS file -->
-    <script src="/games/lib/popup/popup.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-         // $(function () {
-          $( document ).ready(function() {
-            $('.popup-modal').magnificPopup({
-              type: 'inline',
-              preloader: false,
-             // focus: '#username',
-              modal: true
-            });
-            
-            $(document).on('click', '.popup-modal-dismiss', function (e) {
-              e.preventDefault();
-              $.magnificPopup.close();
-            });
-            
-          });
-    </script>
+            <a href="/games/api/launch_EA.php?game=EA&amp;game_id=2&amp;game_name=N2-Live&amp;table=51002" target="_blank">
+        <img src="https://img.here999.com/games/images/EA/roulette2.jpg" style="margin-top:10px;margin-right:10px;" width="23%">      </a>
+  
+               
+          <a href="/games/api/launch_EA.php?game=EA&amp;game_id=2&amp;game_name=N2-Live&amp;table=110001" target="_blank">
+        <img src="https://img.here999.com/games/images/EA/blackjack.jpg" style="margin-top:10px;margin-right:10px;" width="23%">      </a>
         
-    <script type="text/javascript">
-    function LOCK_SP(){
-        alert("[VIP AREA]\n\nขออภัยค่ะ เกมส์นี้สำหรับ VIP Member เท่านั้น หรือคุณต้องมียอดเงินคงเหลือมากกว่า 300 บาท ถึงเข้าเล่นเกมส์คาสิโนนี้ได้คะ");
-        return false;
+        <a href="/games/api/launch_EA.php?game=EA&amp;game_id=2&amp;game_name=N2-Live&amp;table=61001" target="_blank">
+        <img src="https://img.here999.com/games/images/EA/sicbo2-1.jpg" style="margin-top:10px;margin-right:10px;" width="23%">      </a>    </td></tr>
+        
+        <tr>
+      <td class="fsz_rem12" style=" padding-right:20px;"><div class="line1"></div><a name="spacecat"></a></td>
+    </tr>
+   
+     <tr>
+      <td class="fsz_rem12">
+      
+      <a href="/games/api/launch_gg.php?game=GG&amp;game_id=110&amp;game_name=none" target="_blank">
+          <img src="https://img.here999.com/games/images/GG/110.jpg" style="margin-bottom:10px;margin-right:10px; width:23%;">        </a>
+          <!--
+          <a href='/games/api/launch_MJ.php?game=MJ&game_id=TapBet&frame' target='_blank'>
+          <img src='https://img.here999.com/games/images/MJ/sheet/TapBet.jpg' style="margin-bottom:10px;margin-right:10px; width:23%;">
+          </a>
+          -->
+  
+  
+          <a href="/games/api/launch_KA.php?game=KA&amp;game_id=KingOctopus&amp;game_name=KingOctopus" target="_blank">
+          <img src="https://img.here999.com/games/images/KA/KingOctopus.jpg?v1.3" width="23%" style="margin-right:10px;margin-bottom:10px;">        </a>
+  
+          <a href="/games/api/launch_KA.php?game=KA&amp;game_id=SnowWhite&amp;game_name=SnowWhite" target="_blank">
+          <img src="https://img.here999.com/games/images/KA/SnowWhite.jpg?v1.3" width="23%" style="margin-right:10px;margin-bottom:10px;">        </a>
+  
+          <a href="/games/api/launch_KA.php?game=KA&amp;game_id=Millionaires&amp;game_name=Millionaires" target="_blank">
+          <img src="https://img.here999.com/games/images/KA/Millionaires.jpg?v1.3" width="23%" style="margin-right:10px;margin-bottom:10px;">        </a>
+  
+   
+  
+  
+          <a href="/games/api/launch_CG.php?game=CG&amp;game_id=Rich" target="_blank">
+          <img src="https://img.here999.com/games/images/CG/sheet3/Rich.jpg" width="23%" style="margin-right:10px;margin-bottom:10px;">        </a>
+  
+  
+          <a href="/games/api/launch_CG.php?game=CG&amp;game_id=AliceAdvEX" target="_blank">
+          <img src="https://img.here999.com/games/images/CG/sheet3/AliceEX.jpg" width="23%" style="margin-right:10px;margin-bottom:10px;">        </a>
+  
+  
+          <a href="/games/api/launch_CG.php?game=CG&amp;game_id=NinjaEX" target="_blank">
+          <img src="https://img.here999.com/games/images/CG/sheet3/NinjaEX.jpg" width="23%" style="margin-right:10px;margin-bottom:10px;">        </a>
+  
+  
+          <a href="/games/api/launch_CG.php?game=CG&amp;game_id=OdinEX" target="_blank">
+          <img src="https://img.here999.com/games/images/CG/sheet3/OdinEX.jpg" width="23%" style="margin-right:10px;margin-bottom:10px;">        </a>
+  
+        
+      
+      
+     
+        <a href="/games/api/launch_PG.php?game=PG&amp;game_id=dreams-of-macau&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/dreams-of-macau.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=santas-gift-rush&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/santas-gift-rush.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=legend-of-hou-yi&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/legend-of-hou-yi.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=hood-wolf&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/hood-wolf.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=ganesha-gold&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/ganesha-gold.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=double-fortune&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/double-fortune.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=cai-shen-wins&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/cai-shen-wins.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=captains-bounty&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/captains-bounty.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=hip-hop-panda&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/hip-hop-panda.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=reel-love&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/reel-love.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=gem-saviour-sword&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/gem-saviour-sword.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=three-monkeys&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/three-monkeys.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=the-great-icescape&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/the-great-icescape.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=win-win-won&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/win-win-won.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=journey-to-the-wealth&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/journey-to-the-wealth.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=jungle-delight&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/jungle-delight.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=tomb-of-treasure&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/tomb-of-treasure.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=gem-saviour&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/gem-saviour.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=honey-trap-of-diao-chan&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/honey-trap-of-diao-chan.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=mahjong-ways&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/mahjong-ways.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=summon-and-conquer&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/summon-and-conquer.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=tiki-go&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/tiki-go.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=wild-inferno&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/wild-inferno.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+              <a href="/games/api/launch_PG.php?game=PG&amp;game_id=dragon-tiger-luck&amp;game_name=none" target="_blank"> <img src="https://img.here999.com/games/images/PG/dragon-tiger-luck.jpg" style="margin-top:10px;margin-right:10px; width:23%;"> </a>
+            
+    </td></tr>
+  </tbody></table>
+  
+  
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td style="padding-left:30px;">[ <a href="slot_premium.php?m=slot_sa" class="fsz_rem12"><u>เกมส์ Slot อื่นๆ ทั้งหมด</u></a> ]&nbsp;&nbsp;
+  [ <a href="slot_best.php?m=slot_best" class="fsz_rem12"><u>เกมส์แนะนำ ชนะง่าย วงเงินต่ำ</u></a> ]</td>
+          </tr>
+          
+          
+    </tbody></table>
+    </td></tr>
+    </tbody></table>
+        
+  
+  </div>
+  <!--
+  <h3 align="right" style="margin:20px 10px 20px 0px; color:#fff">สมาชิกออนไลน์ขณะนี้ : 12,751 คน</h3>
+  --><br>
+  <br>
+  
+  
+  
+  
+  <!--  MODAL POPUP -->
+  
+  <div id="DG-modal" class="white-popup-block mfp-hide" style="width:70%; max-width:800px;  background-color:#000; margin:auto auto; padding:20px; border:#FFFFFF 1px solid; border-radius:8px;">
+          <div style="font-size:3.0rem; margin-bottom:5px; color:#FFCC00; font-weight:bold;">DG-Asia999 <span style="font-size:14px; font-weight:normal; float:right; color:#FFFFFF">Engine by Asia999.com</span></div>
+          <div>
+            กรุณาเลือก Level ของคุณ<br><br>
+  
+              <a target="_blank" href="/games/Casino-DG1" class="btn_wallet" onclick="if (!window.__cfRLUnblockHandlers) return false; $.magnificPopup.close();" style=" margin:35px 10px; ">
+              A. มือใหม่ <span style="font-size:1.2rem">[10-2500]</span></a>
+              <br>
+              <a target="_blank" href="/games/Casino-DG2" class="btn_wallet" onclick="if (!window.__cfRLUnblockHandlers) return false; $.magnificPopup.close();" style=" margin:35px 10px; ">
+              B. มือสมัครเล่น <span style="font-size:1.2rem">[50-10000]</span></a><br>
+              <a target="_blank" href="/games/Casino-DG3" class="btn_wallet" onclick="if (!window.__cfRLUnblockHandlers) return false; $.magnificPopup.close();" style=" margin:35px 10px; ">
+              C. มืออาชีพ <span style="font-size:1.2rem">[100-50000]</span></a><br>
+          </div>
+          <div align="right" style="margin:30px;"><a class="popup-modal-dismiss" href="#">ปิดหน้านี้ [x]</a></div>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
+  <div class="footer">
+  <nav>
+  
+  <div id="logo"><img src="images/logo.png" width="200"></div>
+  
+  <ul id="gameHallTabs">
+  
+  <li><a class="icon-hall" href="/games/sport_v1.php?m=sport" target="_parent"><img src="images/icon_football3.png" width="32" style="margin-bottom:4px;"><br>ฟุตบอล</a></li>
+  
+  
+  <li class="select"><a class="icon-live" href="/games/index.php?m=casino"><img src="images/icon-live.svg"><br>คาสิโนสด</a></li>   
+  <li><a class="icon-hall" href="/games/index.php?m=fish#fish"><img src="images/icon-hall.svg"><br>เกมส์ยิงปลา</a></li>
+  <li><a class="icon-slot" href="/games/index.php?m=slot_sa#slot_sa"><img src="images/icon-slot.svg"><br>เกมส์สล๊อต</a></li>
+  <li><a target="_parent" class="icon-slot" href="/games/slot_best.php?m=slot_best"><img src="images/index/crown4.png" width="45" style="margin-bottom:9px;"><br>เกมส์แนะนำ</a></li>
+  
+  <!--
+  <li  ><a class="icon-rngtable" href="/bet_main.php" target="_blank"><img src="images/icon-rngtable.svg"  /><br />หวยออนไลน์</a></li>
+  -->
+  <li style="padding-top:10px;"><a target="_parent" class="icon-slot" href="/games/free?m=free">FUN MODE <br>ทดลองเล่น</a></li>
+  
+  </ul>        
+  
+  </nav>
+  </div>
+  <script type="text/javascript">
+  function process(data) {
+      // output your data
+      if(data['success']==1){
+    //console.log(data);
+    $('#user_balance').text(data['balance']);
+    }else{
+      $('#user_balance').text('Reload... ');
+      console.log('get_balance_timeout');
+      window.location.reload();
     }
-    function DG(){
-        alert("[VIP AREA]\n\nขออภัยค่ะ เกมส์นี้สำหรับ VIP Member เท่านั้น หรือคุณต้องมียอดเงินคงเหลือมากกว่า 300 บาท ถึงเข้าเล่นคาสิโน DG ได้\n\nแนะนำ: เข้าเล่น SA Gaming หรือ Sexy คาสิโน ข้างล่าง เริ่มวางเดิมพันต่อตาเพียง 5-10 บาท");
-        return false;
-    }
-    </script>
-    
-    
-    
-    </body></html>
+  }
+  var updateBalance = function() {
+    $.ajax({
+      type: "POST",
+      url: "https://balance.asia999.com/balance/getBalance_curl.php?1413942" + $.now(),
+      dataType: 'json',
+       data: {"token":"b0M1SkVWRi9uMXlKQXlOeUJIeXFRQT09","expire":1638732342,"auth":"595a4df3ff00b79635012de700e8b7c8a1035c1a274a98a2f0da875b318abfda"},
+      success: process
+    });
+  }
+  $( document ).ready(function() {
+  var initx = updateBalance();
+  var refInterval = window.setInterval('updateBalance()', 30000); // 30 seconds
+  });
+  </script>
+  <script type="text/javascript">
+  function LOTTO(){
+    alert("ขออภัยค่ะ คุณต้องมียอดเงินคงเหลือมากกว่า 500 บาท ถึงเข้าเล่นหวยออนไลน์ได้ กรุณาเติมเครดิตเพิ่มค่ะ");
+    return false;
+  }
+  </script>
+  <!-- Magnific Popup core CSS file -->
+  <script src="/games/lib/popup/popup.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+       // $(function () {
+      $( document ).ready(function() {
+          $('.popup-modal').magnificPopup({
+            type: 'inline',
+            preloader: false,
+           // focus: '#username',
+            modal: true
+          });
+      
+          $(document).on('click', '.popup-modal-dismiss', function (e) {
+            e.preventDefault();
+            $.magnificPopup.close();
+          });
+      
+        });
+  </script>
+      
+  <script type="text/javascript">
+  function LOCK_SP(){
+    alert("[VIP AREA]\n\nขออภัยค่ะ เกมส์นี้สำหรับ VIP Member เท่านั้น หรือคุณต้องมียอดเงินคงเหลือมากกว่า 300 บาท ถึงเข้าเล่นเกมส์คาสิโนนี้ได้คะ");
+    return false;
+  }
+  function DG(){
+    alert("[VIP AREA]\n\nขออภัยค่ะ เกมส์นี้สำหรับ VIP Member เท่านั้น หรือคุณต้องมียอดเงินคงเหลือมากกว่า 300 บาท ถึงเข้าเล่นคาสิโน DG ได้\n\nแนะนำ: เข้าเล่น SA Gaming หรือ Sexy คาสิโน ข้างล่าง เริ่มวางเดิมพันต่อตาเพียง 5-10 บาท");
+    return false;
+  }
+  </script>
+  
+  
+  
+  </body></html>
